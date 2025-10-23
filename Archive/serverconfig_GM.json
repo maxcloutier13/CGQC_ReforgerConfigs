@@ -1,0 +1,190 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2225,
+    "publicAddress": "70.50.156.234",
+    "publicPort": 2225,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 2226
+    },
+    "game": {
+        "name": "CGQC.ca - CoopGamingQuebec",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
+        "scenarioId": "{59AD59368755F41A}Missions/21_GM_Eden.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [
+	        	{
+		"modId": "5DD55EE55380FA5C",
+		"name": "IED Emporium 2.0"
+	},
+	{
+		"modId": "5DF421CD360CD7A0",
+		"name": "US Army Expansion"
+	},
+	{
+		"modId": "5EE2A316699473D1",
+		"name": "Third Person Vehicle Only"
+	},
+	{
+		"modId": "597C0CF3A7AA8A99",
+		"name": "BetterSounds 3.0"
+	},
+	{
+		"modId": "5D6EA74A94173EDF",
+		"name": "Enfusion Database Framework"
+	},
+	{
+		"modId": "60A10B93A20FAA9F",
+		"name": "ANPRC68 & R148 - 15 KM range"
+	},
+	{
+		"modId": "60EAF14FAD9D3A45",
+		"name": "CombatOps Extended"
+	},
+	{
+		"modId": "5AB890B71D748750",
+		"name": "M4A1 Block II and URG-I"
+	},
+	{
+		"modId": "60EB593597401D9F",
+		"name": "Building Enhanced"
+	},
+	{
+		"modId": "5D9ECAD071E9ECBC",
+		"name": "HMMWV  VARIANTS PACK"
+	},
+	{
+		"modId": "60AD1157E67580A3",
+		"name": "Improved Radios"
+	},
+	{
+		"modId": "5CE334EA7649C7CC",
+		"name": "Game Master Safe Zones"
+	},
+	{
+		"modId": "59673C18FB8A003C",
+		"name": "Ile Cadieux"
+	},
+	{
+		"modId": "60C40CDB56C23C6B",
+		"name": "vPad"
+	},
+	{
+		"modId": "5C9691EA7FD7A79F",
+		"name": "Kunar Province - Afghanistan"
+	},
+	{
+		"modId": "609E8CAD8A403EA6",
+		"name": "Map Marker Menu Fix"
+	},
+	{
+		"modId": "5AAAC70D754245DD",
+		"name": "Server Admin Tools"
+	},
+	{
+		"modId": "60DD26FB579255DE",
+		"name": "Civilian Faction"
+	},
+	{
+		"modId": "5EE135CE07217857",
+		"name": "Talking on Radio Beeps"
+	},
+	{
+		"modId": "5D7531C2D05BC700",
+		"name": "MCR-Pack 5.56x45"
+	},
+	{
+		"modId": "60612C225328522E",
+		"name": "No Weapon Drop Unconscious"
+	},
+	{
+		"modId": "6078A3A24681EFBF",
+		"name": "VON UI for Gamemasters"
+	},
+	{
+		"modId": "59A30ACC02650E71",
+		"name": "Night Vision System"
+	},
+	{
+		"modId": "60B524F7A5AE96A8",
+		"name": "KIOKMiddleEastAsset"
+	},
+	{
+		"modId": "5994AD5A9F33BE57",
+		"name": "Game Master FX"
+	},
+	{
+		"modId": "5964E0B3BB7410CE",
+		"name": "Game Master Enhanced"
+	},
+	{
+		"modId": "59BA048FA618471A",
+		"name": "Shrapnel"
+	},
+	{
+		"modId": "5D6EBC81EB1842EF",
+		"name": "Enfusion Persistence Framework"
+	},
+	{
+		"modId": "5EAA37D00555B45F",
+		"name": "Reforger Plus"
+	},
+	{
+		"modId": "597D2A65AB73E657",
+		"name": "BetterExplosives 2.0"
+	},
+	{
+		"modId": "5C73156675E11A0F",
+		"name": "GM Persistent Loadouts"
+	},
+	{
+		"modId": "5AB301290317994A",
+		"name": "Suppressors"
+	},
+	{
+		"modId": "5ABD0CB57F7E9EB1",
+		"name": "RIS Laser Attachments"
+	},
+	{
+		"modId": "59651354B2904BA6",
+		"name": "BetterHitsEffects"
+	},
+	{
+		"modId": "60B134EF0216CF4D",
+		"name": "Early 2000s US Military"
+	},
+	{
+		"modId": "5F1513197BBBBAA7",
+		"name": "MilSim Nametags"
+	},
+	{
+		"modId": "606D03292879EF5B",
+		"name": "Scenario Reload Menu"
+	}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}

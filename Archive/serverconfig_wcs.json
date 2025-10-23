@@ -1,0 +1,102 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2225,
+    "publicAddress": "70.51.42.81",
+    "publicPort": 2225,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 2226
+    },
+    "game": {
+        "name": "CGQC.ca - CoopGamingQuebec - WCS",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
+        "scenarioId": "{C41618FD18E9D714}Missions/23_Campaign_Arland.conf",
+        "maxPlayers": 16,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [			
+            {
+				"modId": "5B0D1E4380971EBD",
+				"name": "COALITION Squad Interface",
+				"required": true
+			},
+           	{
+				"modId": "595F2BF2F44836FB",
+				"name": "RHS - Status Quo",
+				"required": true
+			},
+            {
+				"modId": "60C4E0B49618CC62",
+				"name": "ACE All in One",
+				"required": true
+			},
+            {
+				"modId": "64610AFB74AA9842",
+				"name": "WCS_Core",
+				"required": true
+			},
+            {
+				"modId": "62CCD69DD17E4F2F",
+				"name": "AKI CORE",
+				"required": true
+			},
+            {
+				"modId": "648B595F6C72B4CB",
+				"name": "WCS_Settings",
+				"required": true
+			},
+            {
+				"modId": "631C3C1AEE9C90BC",
+				"name": "WCS_Sounds",
+				"required": true
+			},
+            {
+				"modId": "648EF4DF7B2F7D3A",
+				"name": "WCS_Weather",
+				"required": true
+			},
+            {
+				"modId": "61D57616CAFBB23D",
+				"name": "WCS_LoadoutEditor",
+				"required": true
+			},
+            {
+				"modId": "614D1A3874A23AD9",
+				"name": "WCS_Interface",
+				"required": true
+			},
+            {
+				"modId": "61A25BD1C99515B5",
+				"name": "WCS_Commands",
+				"required": true
+			},
+            {
+				"modId": "64DD675E735DFC5D",
+				"name": "WCS_Settings",
+				"required": true
+			}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}

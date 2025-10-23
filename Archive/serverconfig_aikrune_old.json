@@ -1,0 +1,527 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2001,
+    "publicAddress": "184.144.203.157",
+    "publicPort": 2001,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 17777
+    },
+    "game": {
+        "name": "CGQC - Reforger - Aikrune",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [],
+        "scenarioId": "{9D2D546F1E889561}Missions/GM_Zimnitrita.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": true,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [
+          {
+				"modId": "5E8EB849F3CF691C",
+				"name": "ML_Eastern_European_Assets",
+				"version": "1.0.41"
+			},
+			{
+				"modId": "5D84C738432BFE6A",
+				"name": "WolfsBuildingPack",
+				"version": "0.1.56"
+			},
+			{
+				"modId": "5F0D245931200FD1",
+				"name": "Railway Generator",
+				"version": "1.0.5"
+			},
+			{
+				"modId": "597697D81A1EA202",
+				"name": "Zimnitrita",
+				"version": "1.1.0"
+			},
+			{
+				"modId": "62AE96D92179F7A0",
+				"name": "WCS_AH-6M_Upgrade",
+				"version": "4.0.3"
+			},
+			{
+				"modId": "65AD60E204191D37",
+				"name": "Realistic Combat Drones",
+				"version": "2.2.0"
+			},
+			{
+				"modId": "5AD299F4421F1D6A",
+				"name": "Desert Eagle",
+				"version": "1.2.0"
+			},
+			{
+				"modId": "65215863D3D80857",
+				"name": "GRS - Modder Arsenal",
+				"version": "1.0.1"
+			},
+			{
+				"modId": "61D358A07E15C5FE",
+				"name": "Vinny - Sounds",
+				"version": "1.1.2"
+			},
+			{
+				"modId": "59673B6FBB95459F",
+				"name": "BetterTracers 3.0",
+				"version": "3.0.1"
+			},
+			{
+				"modId": "645F08FA9E7CDEDE",
+				"name": "Attachment Framework",
+				"version": "1.0.27"
+			},
+			{
+				"modId": "61230DF6334EBDB8",
+				"name": "Modular Helmet Pack",
+				"version": "1.0.59"
+			},
+			{
+				"modId": "651834C8D77BF86B",
+				"name": "GRS - Modular Vests & Rigs",
+				"version": "1.0.20"
+			},
+			{
+				"modId": "65EC736109DCFC53",
+				"name": "CRX Enfusion A.I. MANW_2025",
+				"version": "1.0.0"
+			},
+			{
+				"modId": "66271B0D7236772A",
+				"name": "Uniforme BME by NILAKE",
+				"version": "1.0.11"
+			},
+			{
+				"modId": "61C87225D2A7348A",
+				"name": "French Beret and Gear",
+				"version": "1.0.4"
+			},
+			{
+				"modId": "660A84101B0473B9",
+				"name": "Deployable Cargo For Skyhook",
+				"version": "1.0.1"
+			},
+			{
+				"modId": "62F262030463CDFB",
+				"name": "CheyTac M200 Intervention",
+				"version": "1.0.21"
+			},
+			{
+				"modId": "662077702679E562",
+				"name": "Phoenix Studios Vehicle Detail",
+				"version": "1.0.3"
+			},
+			{
+				"modId": "5965550F24A0C152",
+				"name": "Where Am I",
+				"version": "1.2.0"
+			},
+			{
+				"modId": "6124C91C1D3BE1C0",
+				"name": "FrenchFaction",
+				"version": "1.0.2"
+			},
+			{
+				"modId": "6550470D2CE2BED7",
+				"name": "vPad to Arsenal",
+				"version": "1.0.3"
+			},
+			{
+				"modId": "630CB4E012A56044",
+				"name": "Improved Blood Compatible",
+				"version": "1.0.9"
+			},
+			{
+				"modId": "60B8E15B61C3F97A",
+				"name": "vPad_Test",
+				"version": "1.1.85"
+			},
+			{
+				"modId": "628F720BC527C143",
+				"name": "Rayzis Optics",
+				"version": "1.3.41"
+			},
+			{
+				"modId": "5F16D7E4A1CBE075",
+				"name": "Escapists",
+				"version": "1.5.65"
+			},
+			{
+				"modId": "64475DC102F2BDA4",
+				"name": "ACE Radio",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "5DF14A2FD0C42CC0",
+				"name": "MAKO AK 105 Zentico",
+				"version": "1.0.54"
+			},
+			{
+				"modId": "65183608D6DA5728",
+				"name": "GRS - Modular Belts & Bags",
+				"version": "1.0.30"
+			},
+			{
+				"modId": "658C0A491D81806C",
+				"name": "Nasty Glock 18C",
+				"version": "0.0.28"
+			},
+			{
+				"modId": "61C2509A023211FE",
+				"name": "M4 MAAWS",
+				"version": "0.3.70"
+			},
+			{
+				"modId": "620E426C34BE0D17",
+				"name": "Laser Rangefinder",
+				"version": "1.0.8"
+			},
+			{
+				"modId": "59A30ACC02650E71",
+				"name": "Night Vision System",
+				"version": "1.1.28"
+			},
+			{
+				"modId": "662EB83AB3F8CAE3",
+				"name": "AKI_Core_Upgrade",
+				"version": "4.0.1"
+			},
+			{
+				"modId": "6190E1D2CF0A921D",
+				"name": "MK46 - MK48",
+				"version": "1.0.25"
+			},
+			{
+				"modId": "647076765B0D71B0",
+				"name": "Caps MK46-MK48 Fix",
+				"version": "0.0.3"
+			},
+			{
+				"modId": "5964E0B3BB7410CE",
+				"name": "Game Master Enhanced",
+				"version": "1.3.4"
+			},
+			{
+				"modId": "61FF27D67BBDB412",
+				"name": "HCA_RadUI",
+				"version": "0.9.78"
+			},
+			{
+				"modId": "65A104B4C17CB675",
+				"name": "Medic armbands for US and USSR",
+				"version": "1.0.0"
+			},
+			{
+				"modId": "6319242B050D1483",
+				"name": "Caps Weapon Pack",
+				"version": "1.0.25"
+			},
+			{
+				"modId": "60D23A92813D0C8E",
+				"name": "Country Flag Patches",
+				"version": "1.0.20"
+			},
+			{
+				"modId": "65157D09F042428A",
+				"name": "GRS - Apparel",
+				"version": "1.0.41"
+			},
+			{
+				"modId": "6582BD921B8EE4E7",
+				"name": "PiP Sensitivity Fix",
+				"version": "1.0.10"
+			},
+			{
+				"modId": "61F09C83740B2B31",
+				"name": "Modern Optics Pack",
+				"version": "1.0.0"
+			},
+			{
+				"modId": "6632F94B46173164",
+				"name": "Rayzi Utils",
+				"version": "1.0.9"
+			},
+			{
+				"modId": "65E4636609FAD59B",
+				"name": "TFU PvE Scenario Framework",
+				"version": "0.0.21"
+			},
+			{
+				"modId": "1337C0DE5DABBEEF",
+				"name": "RHS - Content Pack 01",
+				"version": "0.13.4679"
+			},
+			{
+				"modId": "5AB301290317994A",
+				"name": "Bacon Suppressors",
+				"version": "1.2.7"
+			},
+			{
+				"modId": "5994AD5A9F33BE57",
+				"name": "Game Master FX",
+				"version": "1.0.106"
+			},
+			{
+				"modId": "5C721177A220B42F",
+				"name": "Joint Light Tactical Vehicle",
+				"version": "1.3.5"
+			},
+			{
+				"modId": "65D832030B1DEFC6",
+				"name": "Zimnitrita PVE",
+				"version": "0.0.17"
+			},
+			{
+				"modId": "62CD51E9C58D6957",
+				"name": "Mar-10",
+				"version": "1.0.10"
+			},
+			{
+				"modId": "657B064AE0E231DF",
+				"name": "GRS - Patches",
+				"version": "1.0.13"
+			},
+			{
+				"modId": "BADC0DEDABBEDA5E",
+				"name": "RHS - Content Pack 02",
+				"version": "0.13.4679"
+			},
+			{
+				"modId": "6515672F96701110",
+				"name": "GRS - Essentials",
+				"version": "1.0.32"
+			},
+			{
+				"modId": "60C4C12DAE90727B",
+				"name": "ACE Medical",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "62CCD69DD17E4F2F",
+				"name": "AKI_Core",
+				"version": "4.0.3"
+			},
+			{
+				"modId": "65DACC64CE785B6C",
+				"name": "GRS - Dev Framework",
+				"version": "1.0.15"
+			},
+			{
+				"modId": "595F2BF2F44836FB",
+				"name": "RHS - Status Quo",
+				"version": "0.13.4679"
+			},
+			{
+				"modId": "629B358C38E73FB7",
+				"name": "Phoenix Studios Wolf",
+				"version": "2.0.42"
+			},
+			{
+				"modId": "648297C0F03CE43A",
+				"name": "ModularVoiceRange",
+				"version": "0.0.16"
+			},
+			{
+				"modId": "5D0551624969C92E",
+				"name": "Zeliks Character",
+				"version": "1.1.19"
+			},
+			{
+				"modId": "6273146ADFE8241D",
+				"name": "WCS_AH-6M",
+				"version": "4.0.13"
+			},
+			{
+				"modId": "59674C21AA886D57",
+				"name": "BetterMuzzleFlashes 2.2",
+				"version": "2.2.1"
+			},
+			{
+				"modId": "606C369BAC3F6CC3",
+				"name": "ACE Finger",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "5DBD560C5148E1DA",
+				"name": "ACE Carrying",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "61ECB5EFAA346151",
+				"name": "TacticalAnimationOverhaul TEST",
+				"version": "2.0.68"
+			},
+			{
+				"modId": "62021EB6163A2698",
+				"name": "NGSW",
+				"version": "1.2.5"
+			},
+			{
+				"modId": "606B100247F5C709",
+				"name": "Bacon Loadout Editor",
+				"version": "1.2.47"
+			},
+			{
+				"modId": "597C0CF3A7AA8A99",
+				"name": "BetterSounds 3.7",
+				"version": "3.7.0"
+			},
+			{
+				"modId": "6214CEA5DA92BFF3",
+				"name": "ACE Medical Prototypes",
+				"version": "0.1.20"
+			},
+			{
+				"modId": "650EAAF7FBE7D583",
+				"name": "FORTEX-Kalashnikov Collection",
+				"version": "1.0.37"
+			},
+			{
+				"modId": "5F2944B7474F043F",
+				"name": "Disable Game Master Budgets",
+				"version": "1.0.5"
+			},
+			{
+				"modId": "5AAAC70D754245DD",
+				"name": "Server Admin Tools",
+				"version": "1.2.4"
+			},
+			{
+				"modId": "65BB2D0679BCA058",
+				"name": "Skyhook",
+				"version": "1.1.3"
+			},
+			{
+				"modId": "64EC58328D830193",
+				"name": "Starter Rank Major",
+				"version": "1.0.1"
+			},
+			{
+				"modId": "5E389BB9F58B79A6",
+				"name": "SpaceCore",
+				"version": "1.3.13"
+			},
+			{
+				"modId": "5AF6E0F075D79473",
+				"name": "M249 Scope Rails",
+				"version": "1.0.10"
+			},
+			{
+				"modId": "651433ECBC794018",
+				"name": "GRS - Weapons",
+				"version": "1.0.28"
+			},
+			{
+				"modId": "620A15433CA8D688",
+				"name": "WeakerWalls",
+				"version": "1.0.0"
+			},
+			{
+				"modId": "6118D07B3BCEEA17",
+				"name": "French Army Gears",
+				"version": "2.2.47"
+			},
+			{
+				"modId": "62990B6623136209",
+				"name": "British Community Common",
+				"version": "1.0.53"
+			},
+			{
+				"modId": "629B2BA37EFFD577",
+				"name": "WCS_Armaments",
+				"version": "4.0.9"
+			},
+			{
+				"modId": "61B514B96692C049",
+				"name": "ConflictPVERemixedVanilla2.0",
+				"version": "2.3.20"
+			},
+			{
+				"modId": "5C9758250C8C56F1",
+				"name": "Bon Action Animations - MANW",
+				"version": "1.0.0"
+			},
+			{
+				"modId": "60C4CE4888FF4621",
+				"name": "ACE Core",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "62FCEB51DF8527B6",
+				"name": "Improved Blood Effect",
+				"version": "1.4.2"
+			},
+			{
+				"modId": "62F364B35E9B51B0",
+				"name": "Wirecutters 2",
+				"version": "1.1.3"
+			},
+			{
+				"modId": "627D0C6AE5F771FB",
+				"name": "Door Breaching",
+				"version": "1.0.3"
+			},
+			{
+				"modId": "612F512CD4CB21D5",
+				"name": "WCS_Earplugs",
+				"version": "4.0.0"
+			},
+			{
+				"modId": "6254D456F56BD7D1",
+				"name": "Tactical Patches Pack",
+				"version": "1.0.1"
+			},
+			{
+				"modId": "5ABD0CB57F7E9EB1",
+				"name": "RIS Laser Attachments",
+				"version": "1.0.81"
+			},
+			{
+				"modId": "661861D82F74DD69",
+				"name": "ACE Medical Prototypes AU & NZ",
+				"version": "1.0.0"
+			},
+			{
+				"modId": "61E42AE6714A3CC2",
+				"name": "WCS_Armbands",
+				"version": "4.0.4"
+			},
+			{
+				"modId": "59651354B2904BA6",
+				"name": "BetterHitsEffects 3.3",
+				"version": "3.3.0"
+			},
+			{
+				"modId": "64D4E4ACDE3EBEDB",
+				"name": "MOTAR_GhillieSuit",
+				"version": "0.0.1"
+			},
+			{
+				"modId": "621D3771875C1D3D",
+				"name": "Car Radio 4 All",
+				"version": "1.0.4"
+			}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}

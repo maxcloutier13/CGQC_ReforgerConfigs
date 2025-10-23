@@ -1,0 +1,141 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2225,
+    "publicAddress": "70.51.40.241",
+    "publicPort": 2225,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 2226
+    },
+    "game": {
+        "name": "CGQC.ca - CoopGamingQuebec - Mogadishu",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
+        "scenarioId": "{9166343CE3B6C085}Missions/COE2_Mogadishu.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [
+			{
+				"modId": "5EB744C5F42E0800",
+				"name": "ACE Chopping",
+				"required": true
+			},
+			{
+				"modId": "60EAEA0389DB3CC2",
+				"name": "ACE Trenches",
+				"required": true
+			},
+			{
+				"modId": "5B0D1E4380971EBD",
+				"name": "COALITION Squad Interface",
+				"required": true
+			},
+			{
+				"modId": "61B7763A8AEB53B7",
+				"name": "ACE Explosives",
+				"required": true
+			},
+			{
+				"modId": "60B524F7A5AE96A8",
+				"name": "ArmaTerrainCore",
+				"required": true
+			},
+			{
+				"modId": "60C4E0B49618CC62",
+				"name": "ACE All in One",
+				"required": true
+			},
+			{
+				"modId": "60C4C12DAE90727B",
+				"name": "ACE Medical",
+				"required": true
+			},
+			{
+				"modId": "61C80A73A70724EE",
+				"name": "COE2 - Mogadishu",
+				"required": true
+			},
+			{
+				"modId": "60926835F4A7B0CA",
+				"name": "COE2",
+				"required": true
+			},
+			{
+				"modId": "606C369BAC3F6CC3",
+				"name": "ACE Finger",
+				"required": true
+			},
+			{
+				"modId": "611CB1D409001EB0",
+				"name": "ACE Magazine Repack",
+				"required": true
+			},
+			{
+				"modId": "609E8CAD8A403EA6",
+				"name": "Map Marker Menu Fix",
+				"required": true
+			},
+			{
+				"modId": "5DBD560C5148E1DA",
+				"name": "ACE Carrying",
+				"required": true
+			},
+			{
+				"modId": "60E573C9B04CC408",
+				"name": "ACE Backblast",
+				"required": true
+			},
+			{
+				"modId": "60C53A9372ED3964",
+				"name": "ACE Compass",
+				"required": true
+			},
+			{
+				"modId": "60C4CE4888FF4621",
+				"name": "ACE Core",
+				"required": true
+			},
+			{
+				"modId": "5ED61DC0AFE17E8E",
+				"name": "Kex Scenario Core",
+				"required": true
+			},
+			{
+				"modId": "5F1D02080409E128",
+				"name": "Mogadishu-Somalia",
+				"required": true
+			},
+			{
+				"modId": "5F1513197BBBBAA7",
+				"name": "MilSim Nametags",
+				"required": true
+			}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}
+
+
+
+

@@ -1,0 +1,131 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2225,
+    "publicAddress": "70.51.40.241",
+    "publicPort": 2225,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 2226
+    },
+    "game": {
+        "name": "CGQC.ca - CoopGamingQuebec - Dead Everon",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
+        "scenarioId": "{DFAC5FABD11F2390}Missions/DeadEveronOps.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [
+			{
+				"modId": "5EB744C5F42E0800",
+				"name": "ACE Chopping",
+				"required": true
+			},
+			{
+				"modId": "5D58A217A9611AFB",
+				"name": "Dead Everon",
+				"version": "3.1.5"
+			},
+			{
+				"modId": "60EAEA0389DB3CC2",
+				"name": "ACE Trenches",
+				"required": true
+			},
+			{
+				"modId": "5B0D1E4380971EBD",
+				"name": "COALITION Squad Interface",
+				"required": true
+			},
+			{
+				"modId": "61B7763A8AEB53B7",
+				"name": "ACE Explosives",
+				"required": true
+			},
+			{
+				"modId": "60C4E0B49618CC62",
+				"name": "ACE All in One",
+				"required": true
+			},
+			{
+				"modId": "60A68ED7293C691A",
+				"name": "iRON79 Compositions",
+				"required": true
+			},
+			{
+				"modId": "5F0D245931200FD1",
+				"name": "Railway Generator",
+				"required": true
+			},
+			{
+				"modId": "5D84C738432BFE6A",
+				"name": "WolfsBuildingPack",
+				"required": true
+			},
+			{
+				"modId": "5DAC39D2C3D4C8CD",
+				"name": "BetterInventory",
+				"required": true
+			},
+			{
+				"modId": "6206C7238516657B",
+				"name": "Crocells Workshop of Horrors",
+				"required": true
+			},
+			{
+				"modId": "606C369BAC3F6CC3",
+				"name": "ACE Finger",
+				"required": true
+			},
+			{
+				"modId": "5EE2A316699473D1",
+				"name": "Third Person Vehicle Only",
+				"required": true
+			},
+			{
+				"modId": "611CB1D409001EB0",
+				"name": "ACE Magazine Repack",
+				"required": true
+			},
+			{
+				"modId": "5DBD560C5148E1DA",
+				"name": "ACE Carrying",
+				"required": true
+			},
+			{
+				"modId": "60C53A9372ED3964",
+				"name": "ACE Compass",
+				"required": true
+			},
+			{
+				"modId": "60C4CE4888FF4621",
+				"name": "ACE Core",
+				"required": true
+			}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}
+
+
+
+

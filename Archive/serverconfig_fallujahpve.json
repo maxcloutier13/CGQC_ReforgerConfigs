@@ -1,0 +1,157 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2225,
+    "publicAddress": "70.51.40.241",
+    "publicPort": 2225,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 2226
+    },
+    "game": {
+        "name": "CGQC.ca - CoopGamingQuebec - Fallujah",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
+        "scenarioId": "{738788C0A5A8EA62}Missions/Header.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [
+			{
+				"modId": "5EB744C5F42E0800",
+				"name": "ACE Chopping",
+				"required": true
+			},
+			{
+				"modId": "60EAEA0389DB3CC2",
+				"name": "ACE Trenches",
+				"required": true
+			},
+			{
+				"modId": "61D0A46A6A9E9E99",
+				"name": "AAO Props",
+				"required": true
+			},
+			{
+				"modId": "61B7763A8AEB53B7",
+				"name": "ACE Explosives",
+				"required": true
+			},
+			{
+				"modId": "60B524F7A5AE96A8",
+				"name": "ArmaTerrainCore",
+				"required": true
+			},
+			{
+				"modId": "60C4E0B49618CC62",
+				"name": "ACE All in One",
+				"required": true
+			},
+			{
+				"modId": "62C54605E241941C",
+				"name": "AAO Fallujah PvE",
+				"required": true
+			},
+			{
+				"modId": "61FA0C31DE4B7D01",
+				"name": "Mikes Fallujah PVE",
+				"required": true
+			},
+			{
+				"modId": "5F0D245931200FD1",
+				"name": "Railway Generator",
+				"required": true
+			},
+			{
+				"modId": "60C4C12DAE90727B",
+				"name": "ACE Medical",
+				"required": true
+			},
+			{
+				"modId": "5E1735DB431EE29B",
+				"name": "Gulfcoast Buildings",
+				"required": true
+			},
+			{
+				"modId": "5D84C738432BFE6A",
+				"name": "WolfsBuildingPack",
+				"required": true
+			},
+			{
+				"modId": "5EDC6DEEFCFDE088",
+				"name": "map maker only assets",
+				"required": true
+			},
+			{
+				"modId": "606C369BAC3F6CC3",
+				"name": "ACE Finger",
+				"required": true
+			},
+			{
+				"modId": "611CB1D409001EB0",
+				"name": "ACE Magazine Repack",
+				"required": true
+			},
+			{
+				"modId": "5DBD560C5148E1DA",
+				"name": "ACE Carrying",
+				"required": true
+			},
+			{
+				"modId": "5F04F5A0383C44B1",
+				"name": "Fallujah Map ByHeine",
+				"required": true
+			},
+			{
+				"modId": "60E573C9B04CC408",
+				"name": "ACE Backblast",
+				"required": true
+			},
+			{
+				"modId": "61B514B96692C049",
+				"name": "ConflictPVERemixedVanilla2.0",
+				"required": true
+			},
+			{
+				"modId": "60C53A9372ED3964",
+				"name": "ACE Compass",
+				"required": true
+			},
+			{
+				"modId": "60C4CE4888FF4621",
+				"name": "ACE Core",
+				"required": true
+			},
+			{
+				"modId": "5F1513197BBBBAA7",
+				"name": "MilSim Nametags",
+				"required": true
+			},
+			{
+				"modId": "5B0D1E4380971EBD",
+				"name": "COALITION Squad Interface",
+				"required": true
+			}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}

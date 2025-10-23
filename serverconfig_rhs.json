@@ -1,0 +1,90 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2001,
+    "publicAddress": "184.144.203.157",
+    "publicPort": 2001,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 17777
+    },
+    "game": {
+        "name": "CGQC - Reforger - RHS CombatOps",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [],
+        "scenarioId": "{D10B11A71A36FCF5}Missions/RHS_CombatOps_USMC_vs_MSV.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": true,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [
+			{
+				"modId": "595F2BF2F44836FB",
+				"name": "RHS - Status Quo"
+			},
+			{
+				"modId": "648297C0F03CE43A",
+				"name": "ModularVoiceRange"
+			},
+			{
+				"modId": "60C4C12DAE90727B",
+				"name": "ACE Medical"
+			},
+			{
+				"modId": "606C369BAC3F6CC3",
+				"name": "ACE Finger"
+			},
+			{
+				"modId": "5DBD560C5148E1DA",
+				"name": "ACE Carrying"
+			},
+			{
+				"modId": "6214CEA5DA92BFF3",
+				"name": "ACE Medical Prototypes"
+			},
+			{
+				"modId": "5AAAC70D754245DD",
+				"name": "Server Admin Tools"
+			},
+			{
+				"modId": "64475DC102F2BDA4",
+				"name": "ACE Radio"
+			},
+			{
+				"modId": "60C4CE4888FF4621",
+				"name": "ACE Core"
+			},
+			{
+				"modId": "6582BD921B8EE4E7",
+				"name": "PiP Sensitivity Fix"
+			},
+			{
+				"modId": "BADC0DEDABBEDA5E",
+				"name": "RHS - Content Pack 02"			
+			},
+			{
+				"modId": "1337C0DE5DABBEEF",
+				"name": "RHS - Content Pack 01"
+			}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}

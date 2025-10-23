@@ -1,0 +1,256 @@
+{
+    "bindAddress": "0.0.0.0",
+    "bindPort": 2225,
+    "publicAddress": "70.51.40.241",
+    "publicPort": 2225,
+    "a2s": {
+        "address": "0.0.0.0",
+        "port": 2226
+    },
+    "game": {
+        "name": "CGQC.ca - CoopGamingQuebec - WCS",
+        "password": "147",
+        "passwordAdmin": "CGQC147",
+        "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
+        "scenarioId": "{D10B11A71A36FCF5}Missions/RHS_CombatOps_USMC_vs_MSV.conf",
+        "maxPlayers": 32,
+        "visible": true,
+        "crossPlatform": false,
+        "supportedPlatforms": [ "PLATFORM_PC" ],
+        "gameProperties": {
+            "serverMaxViewDistance": 1700,
+            "serverMinGrassDistance": 50,
+            "networkViewDistance": 1500,
+            "disableThirdPerson": false,
+            "fastValidation": true,
+            "battlEye": false,
+            "VONDisableUI": true,
+            "VONDisableDirectSpeechUI": true,
+            "VONCanTransmitCrossFaction": false,
+            "missionHeader": {}
+        },
+        "mods": [
+			{
+				"modId": "60C4E0B49618CC62",
+				"name": "ACE All in One",
+				"required": true
+			},			
+			{
+				"modId": "63294BA2D9F0339B",
+				"name": "WCS_ZU-23-2",
+				"required": true
+			},
+			{
+				"modId": "61D57616CAFBB23D",
+				"name": "WCS_LoadoutEditor",
+				"required": true
+			},
+			{
+				"modId": "61BA4EB5C886D396",
+				"name": "WCS_VehicleLock",
+				"required": true
+			},
+			{
+				"modId": "645B2325E8D46A99",
+				"name": "COALITION Jamming 2.0",
+				"required": true
+			},
+			{
+				"modId": "5B0D1E4380971EBD",
+				"name": "COALITION Squad Interface",
+				"required": true
+			},
+			{
+				"modId": "595F2BF2F44836FB",
+				"name": "RHS - Status Quo",
+				"required": true
+			},
+			{
+				"modId": "6062246179EF7B50",
+				"name": "VoteKickFix",
+				"required": true
+			},
+			{
+				"modId": "614C00DA7F8765F6",
+				"name": "WCS_SpawnProtection",
+				"required": true
+			},
+			{
+				"modId": "647C21AA47E2EFED",
+				"name": "Xtreme Military Radio Sounds",
+				"required": true
+			},
+			{
+				"modId": "62A668F513428630",
+				"name": "WCS_Scopes",
+				"required": true
+			},
+			{
+				"modId": "614D1A3874A23AD9",
+				"name": "WCS_Interface",
+				"required": true
+			},
+			{
+				"modId": "64610AFB74AA9842",
+				"name": "WCS_Core",
+				"required": true
+			},
+			{
+				"modId": "6122DD5CCF5C59E6",
+				"name": "WCS_AFKKick",
+				"required": true
+			},
+			{
+				"modId": "61A25BD1C99515B5",
+				"name": "WCS_Commands",
+				"required": true
+			},
+			{
+				"modId": "6148E5A6D60AA2BA",
+				"name": "Prefab Optimizations - Glass",
+				"required": true
+			},
+			{
+				"modId": "614627BACB991914",
+				"name": "Prefab Optimizations - Core",
+				"required": true
+			},
+			{
+				"modId": "61CAB0067CC8ACE2",
+				"name": "BFV_Fix",
+				"required": true
+			},
+			{
+				"modId": "64DD675E735DFC5D",
+				"name": "WCS_Settings",
+				"required": true
+			},
+			{
+				"modId": "62CCD69DD17E4F2F",
+				"name": "AKI CORE",
+				"required": true
+			},
+			{
+				"modId": "60E28D08A9009D01",
+				"name": "KillLog",
+				"required": true
+			},
+			{
+				"modId": "59EAA899751805DF",
+				"name": "Stun Grenade",
+				"required": true
+			},
+			{
+				"modId": "6273146ADFE8241D",
+				"name": "AH6M",
+				"required": true
+			},
+			{
+				"modId": "613A878AD341C163",
+				"name": "WCS Script Optimizations",
+				"required": true
+			},
+			{
+				"modId": "61C74A8B647617DA",
+				"name": "WCS_Attachments",
+				"required": true
+			},
+			{
+				"modId": "611773E9DBCA20AC",
+				"name": "Prefab Optimizations",
+				"required": true
+			},
+			{
+				"modId": "5E92F5A4A1B75A75",
+				"name": "Player Map Markers",
+				"required": true
+			},
+			{
+				"modId": "647B05E150441D80",
+				"name": "WCS_Sounds_Dev",
+				"required": true
+			},
+			{
+				"modId": "615CC2D870A39838",
+				"name": "WCS_Arsenal",
+				"required": true
+			},
+			{
+				"modId": "619EEC6E6175CB39",
+				"name": "WCS_Chernarus",
+				"required": true
+			},
+			{
+				"modId": "615818DA7C0343FD",
+				"name": "WCS_RU",
+				"required": true
+			},
+			{
+				"modId": "62113AA293414DB9",
+				"name": "Bandage Patch",
+				"required": true
+			},
+			{
+				"modId": "615A80027C5C9170",
+				"name": "WCS_Vehicles",
+				"required": true
+			},
+			{
+				"modId": "5D071A427403AB2C",
+				"name": "Chat Message Roles",
+				"required": true
+			},
+			{
+				"modId": "60557550B10EB832",
+				"name": "Slower Strafe",
+				"required": true
+			},
+			{
+				"modId": "62FCEB51DF8527B6",
+				"name": "Improved Blood Effect",
+				"required": true
+			},
+			{
+				"modId": "62113AA293414DBA",
+				"name": "Keep Ragdoll Pose",
+				"required": true
+			},
+			{
+				"modId": "628933A0D3A0D700",
+				"name": "WCS_Mi-24V",
+				"required": true
+			},
+			{
+				"modId": "6146FAED5AAD7C55",
+				"name": "WCS_Helicopters",
+				"required": true
+			},
+			{
+				"modId": "61E42AE6714A3CC2",
+				"name": "WCS_Armbands",
+				"required": true
+			},
+			{
+				"modId": "615806DC6C57AF02",
+				"name": "WCS_NATO",
+				"required": true
+			},
+			{
+				"modId": "6152CB0BD0684837",
+				"name": "WCS_Clothing",
+				"required": true
+			}
+        ]
+    },
+    "operating": {
+        "lobbyPlayerSynchronise": true,
+        "disableCrashReporter": false,
+        "playerSaveTime": 120,
+        "aiLimit": -1,
+        "slotReservationTimeout": 90
+    }
+}
+
+
+
+
