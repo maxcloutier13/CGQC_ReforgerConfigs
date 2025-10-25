@@ -31,44 +31,63 @@
         },
         "mods": [
 			{
+				"modId": "61B7763A8AEB53B7",
+				"name": "ACE Explosives",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "60E573C9B04CC408",
+				"name": "ACE Backblast",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "646D52AF8BB3FF15",
+				"name": "ACE Captives",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "5EB744C5F42E0800",
+				"name": "ACE Chopping",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "611CB1D409001EB0",
+				"name": "ACE Magazine Repack",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "60C53A9372ED3964",
+				"name": "ACE Compass",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "60EAEA0389DB3CC2",
+				"name": "ACE Trenches",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "62F802951CC8A37E",
+				"name": "ACE Tactical Periscope",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "61226BB18D360BDD",
+				"name": "ACE Tactical Ladder",
+				"version": "1.3.2"
+			},
+			{
+				"modId": "60C4E0B49618CC62",
+				"name": "ACE All in One",
+				"version": "1.3.2"
+			},
+	
+
+
+
+
+			{
 				"modId": "595F2BF2F44836FB",
 				"name": "RHS - Status Quo"
-			},
-			{
-				"modId": "648297C0F03CE43A",
-				"name": "ModularVoiceRange"
-			},
-			{
-				"modId": "60C4C12DAE90727B",
-				"name": "ACE Medical"
-			},
-			{
-				"modId": "606C369BAC3F6CC3",
-				"name": "ACE Finger"
-			},
-			{
-				"modId": "5DBD560C5148E1DA",
-				"name": "ACE Carrying"
-			},
-			{
-				"modId": "6214CEA5DA92BFF3",
-				"name": "ACE Medical Prototypes"
-			},
-			{
-				"modId": "5AAAC70D754245DD",
-				"name": "Server Admin Tools"
-			},
-			{
-				"modId": "64475DC102F2BDA4",
-				"name": "ACE Radio"
-			},
-			{
-				"modId": "60C4CE4888FF4621",
-				"name": "ACE Core"
-			},
-			{
-				"modId": "6582BD921B8EE4E7",
-				"name": "PiP Sensitivity Fix"
 			},
 			{
 				"modId": "BADC0DEDABBEDA5E",
@@ -77,6 +96,23 @@
 			{
 				"modId": "1337C0DE5DABBEEF",
 				"name": "RHS - Content Pack 01"
+			},
+
+
+
+
+
+			{
+				"modId": "5AAAC70D754245DD",
+				"name": "Server Admin Tools"
+			},
+			{
+				"modId": "648297C0F03CE43A",
+				"name": "ModularVoiceRange"
+			},
+			{
+				"modId": "6582BD921B8EE4E7",
+				"name": "PiP Sensitivity Fix"
 			}
         ]
     },

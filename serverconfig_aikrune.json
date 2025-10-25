@@ -335,10 +335,14 @@
 				"modId": "BADC0DEDABBEDA5E",
 				"name": "RHS - Content Pack 02"			
 			},
-			{
-				"modId": "64E46D8F80F25413",
-				"name": "Cam Cream Faces"
+				{
+				"modId": "61230DF6334EBDB8",
+				"name": "Modular Helmet Pack"
 			},
+			{
+				"modId": "6503091A7B264FC3",
+				"name": "WCS_Motorbikes"
+			},		
 			{
 				"modId": "65FB5234B4A8E20B",
 				"name": "ToH ReCharacters Livonian"
@@ -362,10 +366,6 @@
 			{
 				"modId": "65FB5184A09FE8A1",
 				"name": "ToH ReCharacters Asian"
-			},
-			{
-				"modId": "66551A9CBD7AC10D",
-				"name": "TASK-FORCE-FACES"
 			},
 			{
 				"modId": "6616784BD405249F",
