@@ -1,0 +1,259 @@
+{
+  "bindAddress": "0.0.0.0",
+  "bindPort": 2001,
+  "publicAddress": "184.144.203.157",
+  "publicPort": 2001,
+  "a2s": {
+    "address": "0.0.0.0",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "0.0.0.0",
+    "port": 2002,
+    "password": "!CGQC147",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "CGQC - RHS+",
+    "password": "147",
+    "passwordAdmin": "CGQC147",
+    "admins": [],
+    "scenarioId": "{D10B11A71A36FCF5}Missions/RHS_CombatOps_USMC_vs_MSV.conf",
+    "maxPlayers": 32,
+    "visible": true,
+    "crossPlatform": false,
+    "supportedPlatforms": [
+      "PLATFORM_PC"
+    ],
+    "gameProperties": {
+      "serverMaxViewDistance": 1700,
+      "serverMinGrassDistance": 50,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": false,
+      "VONDisableDirectSpeechUI": false,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {}
+    },
+    "mods": [
+      {
+        "modId": "65064E8034130626",
+        "name": "TrustyAdminTools",
+        "required": true 
+      },
+      {
+        "modId": "59673B6FBB95459F",
+        "name": "BetterTracers 3.0",
+        "required": true
+      },
+      {
+        "modId": "65FB5234B4A8E20B",
+        "name": "ToH ReCharacters Livonian",
+        "required": true
+      },
+      {
+        "modId": "65EC736109DCFC53",
+        "name": "CRX Enfusion A.I. MANW_2025",
+        "required": true
+      },
+      {
+        "modId": "669523D075CFBE49",
+        "name": "Custom Player Names And Roles",
+        "required": true
+      },
+      {
+        "modId": "630CB4E012A56044",
+        "name": "Improved Blood Compatible",
+        "required": true
+      },
+      {
+        "modId": "59674C21AA886D57",
+        "name": "BetterMuzzleFlashes 2.2",
+        "required": true
+      },
+      {
+        "modId": "61D57616CAFBB23D",
+        "name": "WCS_LoadoutEditor",
+        "required": true
+      },
+      {
+        "modId": "606B100247F5C709",
+        "name": "Bacon Loadout Editor",
+        "required": true
+      },
+      {
+        "modId": "64F869693699EEA7",
+        "name": "Identity Character Selector",
+        "required": true
+      },
+      {
+        "modId": "5B0D1E4380971EBD",
+        "name": "COALITION Squad Interface",
+        "required": true
+      },
+      {
+        "modId": "64C912EF952E1075",
+        "name": "ToH ReCharacters Core",
+        "required": true
+      },
+   
+      {
+        "modId": "65FB52DAABB24B05",
+        "name": "ToH ReCharacters Tanoan",
+        "required": true
+      },
+      {
+        "modId": "6582BD921B8EE4E7",
+        "name": "PiP Sensitivity Fix",
+        "required": true
+      },
+      {
+        "modId": "6632F94B46173164",
+        "name": "Rayzi Utils",
+        "required": true
+      },
+      {
+        "modId": "65CCB10717C80EBC",
+        "name": "Edit Entity Inventory",
+        "required": true
+      },
+      {
+        "modId": "65FB5184A09FE8A1",
+        "name": "ToH ReCharacters Asian",
+        "required": true
+      },
+   
+      {
+        "modId": "65FB51CDA61F1071",
+        "name": "ToH ReCharacters Greek",
+        "required": true
+      },
+      {
+        "modId": "620A15433CA8D688",
+        "name": "WeakerWalls",
+        "required": true
+      },
+
+      {
+        "modId": "65C2215B66767AB2",
+        "name": "CharacterSelector4Conflict",
+        "required": true
+      }, 
+      {
+        "modId": "60C4E0B49618CC62",
+        "name": "ACE All in One",
+        "required": true
+      },
+      {
+          "modId": "6214CEA5DA92BFF3",
+          "name": "ACE Medical Prototypes",
+          "required": true
+      },    
+      {
+        "modId": "61ECB5EFAA346151",
+        "name": "TacticalAnimationOverhaul TEST",
+        "required": true
+      },
+      {
+        "modId": "597C0CF3A7AA8A99",
+        "name": "BetterSounds 3.7",
+        "required": true
+      },
+      {
+        "modId": "65FB762EB503CCF9",
+        "name": "ToH ReCharacters Persian",
+        "required": true
+      },
+      {
+        "modId": "5F2944B7474F043F",
+        "name": "Disable Game Master Budgets",
+        "required": true
+      },
+      {
+        "modId": "5AAAC70D754245DD",
+        "name": "Server Admin Tools",
+        "required": true
+      },
+      {
+        "modId": "64EC58328D830193",
+        "name": "Starter Rank Major",
+        "required": true
+      },
+      {
+        "modId": "65FB5265B4F72F4B",
+        "name": "ToH ReCharacters Russian",
+        "required": true
+      },
+      {
+        "modId": "596330D9AF34AF38",
+        "name": "ToH ReCharacters Man",
+        "required": true
+      },
+      {
+        "modId": "65FB50F7FA33DECA",
+        "name": "ToH ReCharacters African",
+        "required": true
+      },
+      {
+        "modId": "5C9758250C8C56F1",
+        "name": "Bon Action Animations - MANW",
+        "required": true
+      },   
+      {
+        "modId": "62FCEB51DF8527B6",
+        "name": "Improved Blood Effect",
+        "required": true
+      },
+      {
+        "modId": "62F364B35E9B51B0",
+        "name": "Wirecutters 2",
+        "required": true
+      },
+      {
+        "modId": "65FB4A6CFFC4079C",
+        "name": "ToH ReCharacters European",
+        "required": true
+      },
+      {
+        "modId": "612F512CD4CB21D5",
+        "name": "WCS_Earplugs",
+        "required": true
+      },
+      {
+        "modId": "648297C0F03CE43A",
+        "name": "ModularVoiceRange",
+        "required": true
+      },
+      {
+        "modId": "59651354B2904BA6",
+        "name": "BetterHitsEffects 3.3",
+        "required": true
+      },
+      {
+        "modId": "621D3771875C1D3D",
+        "name": "Car Radio 4 All",
+        "required": true
+      },     
+      {
+        "modId": "595F2BF2F44836FB",
+        "name": "RHS - Status Quo",
+        "required": true
+      }
+    ],
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 120,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}

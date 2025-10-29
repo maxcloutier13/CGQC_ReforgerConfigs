@@ -1,3 +1,5 @@
+
+
 {
     "bindAddress": "0.0.0.0",
     "bindPort": 2001,
@@ -14,11 +16,11 @@
 		"permission": "admin"
 	},
     "game": {
-        "name": "CGQC - Reforger - RHS CombatOps",
+        "name": "CGQC - Reforger - CombatOps Everon",
         "password": "147",
         "passwordAdmin": "CGQC147",
         "admins": [],
-        "scenarioId": "{66B433EBA52EC03A}Missions/RHS_CombatOps_USMC_vs_MSV.conf",
+        "scenarioId": "{66B2330254A8EED7}Missions/24_CombatOps_Arland.conf",
         "maxPlayers": 32,
         "visible": true,
         "crossPlatform": false,
@@ -36,7 +38,7 @@
             "missionHeader": {}
         },
         "mods": [
-			  {
+            {
                 "modId": "5EB744C5F42E0800",
                 "name": "ACE Chopping"
             },
@@ -100,7 +102,10 @@
                 "modId": "65FB52DAABB24B05",
                 "name": "ToH ReCharacters Tanoan"
             },
-         
+            {
+                "modId": "60C4E0B49618CC62",
+                "name": "ACE All in One"
+            },
             {
                 "modId": "6582BD921B8EE4E7",
                 "name": "PiP Sensitivity Fix"
@@ -116,7 +121,7 @@
             {
                 "modId": "66B2330254A8EED7",
                 "name": "cgqc_core"
-            },			      
+            },
             {
                 "modId": "646D52AF8BB3FF15",
                 "name": "ACE Captives"
@@ -133,6 +138,10 @@
                 "modId": "60C4C12DAE90727B",
                 "name": "ACE Medical"
             },
+            {
+                "modId": "6214CEA5DA92BFF3",
+                "name": "ACE Medical Prototypes"
+            },            
             {
                 "modId": "65FB51CDA61F1071",
                 "name": "ToH ReCharacters Greek"
@@ -156,10 +165,6 @@
             {
                 "modId": "5DBD560C5148E1DA",
                 "name": "ACE Carrying"
-            },
-            {
-                "modId": "60C4E0B49618CC62",
-                "name": "ACE All in One"
             },
             {
                 "modId": "61ECB5EFAA346151",
@@ -244,23 +249,7 @@
             {
                 "modId": "621D3771875C1D3D",
                 "name": "Car Radio 4 All"
-            },
-            {
-                "modId": "66B433EBA52EC03A",
-                "name": "cgqc_rhs"
-            },   
-			{
-				"modId": "595F2BF2F44836FB",
-				"name": "RHS - Status Quo"
-			},
-			{
-				"modId": "BADC0DEDABBEDA5E",
-				"name": "RHS - Content Pack 02"			
-			},
-			{
-				"modId": "1337C0DE5DABBEEF",
-				"name": "RHS - Content Pack 01"
-			}  
+            }
         ]
     },
     "operating": {
@@ -271,3 +260,4 @@
         "slotReservationTimeout": 90
     }
 }
+

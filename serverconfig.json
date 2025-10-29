@@ -7,11 +7,17 @@
         "address": "0.0.0.0",
         "port": 2226
     },
+    "rcon": {
+		"address": "0.0.0.0",
+		"port": 2002,
+		"password": "!CGQC147",
+		"permission": "admin"
+	},
     "game": {
         "name": "CoopGaming - Test server",
         "password": "147",
         "passwordAdmin": "CGQC147",
-        "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
+        "admins": [],
         "scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
         "maxPlayers": 32,
         "visible": true,

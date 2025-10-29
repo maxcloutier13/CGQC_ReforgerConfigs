@@ -14,7 +14,7 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla",
+    "name": "CGQC - Vanilla+",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": [],
@@ -37,8 +37,19 @@
       "VONCanTransmitCrossFaction": true,
       "missionHeader": {}
     },
-    "mods": [],
-    "modsRequiredByDefault": false
+      "mods": [
+      {
+        "modId": "66BAE105154ED5E7",
+        "name": "cgqc_addons",
+        "required": true
+      },
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
+        "required": true
+      }
+    ],
+    "modsRequiredByDefault": true
   },
   "operating": {
     "lobbyPlayerSynchronise": true,
