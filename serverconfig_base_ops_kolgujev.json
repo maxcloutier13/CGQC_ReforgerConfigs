@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla+",
+    "name": "CGQC - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": [],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+    "scenarioId": "{CB347F2F10065C9C}Missions/CombatOpsCain.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -37,19 +37,8 @@
       "VONCanTransmitCrossFaction": true,
       "missionHeader": {}
     },
-      "mods": [
-      {
-        "modId": "66BAE105154ED5E7",
-        "name": "cgqc_addons",
-        "required": true
-      },
-      {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
-        "required": true
-      }
-    ],
-    "modsRequiredByDefault": true
+    "mods": [],
+    "modsRequiredByDefault": false
   },
   "operating": {
     "lobbyPlayerSynchronise": true,
