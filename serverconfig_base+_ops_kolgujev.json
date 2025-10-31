@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - RHS",
+    "name": "CGQC - Vanilla+",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": [],
-    "scenarioId": "{F45C6C15D31252E6}Missions/27_GM_Cain.conf",
+    "scenarioId": "{CB347F2F10065C9C}Missions/CombatOpsCain.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -38,7 +38,7 @@
       "missionHeader": {}
     },
     "mods": [
-       {
+      {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
@@ -46,11 +46,6 @@
       {
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
-        "required": true
-      },
-      {
-        "modId": "66BB276B523D505B",
-        "name": "cgqc_rhs",
         "required": true
       }
     ],

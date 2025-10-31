@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla",
+    "name": "CGQC - RHS",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": [],
-    "scenarioId": "{CB347F2F10065C9C}Missions/CombatOpsCain.conf",
+    "scenarioId": "{3BE30F418DCEE458}Missions/ConflictPVERemixedVanilla2_Cain.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -52,7 +52,23 @@
         "modId": "66BB276B523D505B",
         "name": "cgqc_rhs",
         "required": true
-      }
+      },
+      {
+            "modId": "61B514B96692C049",
+            "name": "ConflictPVERemixedVanilla2.0",
+            "version": "2.4.0"
+        },
+            {
+            "modId": "66BD40A1582AAB40",
+            "name": "ConflictPVERemixedTweak",
+            "version": "1.0.6"
+        },
+            {
+            "modId": "66B612E8C24044E5",
+            "name": "FOG Arsenal RACC",
+            "version": "1.0.14"
+        }
+
     ],
     "modsRequiredByDefault": true
   },
