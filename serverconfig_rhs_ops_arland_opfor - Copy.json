@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla+",
+    "name": "CGQC - RHS+",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": [],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+    "scenarioId": "{C5EAD55037EB4751}Missions/RHS_CombatOps_MSV.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -46,6 +46,11 @@
       {
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
+        "required": true
+      },
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
         "required": true
       }
     ],

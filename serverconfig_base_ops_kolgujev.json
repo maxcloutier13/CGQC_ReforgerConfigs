@@ -37,8 +37,14 @@
       "VONCanTransmitCrossFaction": true,
       "missionHeader": {}
     },
-    "mods": [],
-    "modsRequiredByDefault": false
+    "mods": [
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
+        "required": true
+      }
+    ],
+    "modsRequiredByDefault": true
   },
   "operating": {
     "lobbyPlayerSynchronise": true,
