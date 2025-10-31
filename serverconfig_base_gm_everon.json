@@ -39,6 +39,11 @@
     },
     "mods": [
       {
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_core",
+        "required": true
+      },
+      {
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
         "required": true

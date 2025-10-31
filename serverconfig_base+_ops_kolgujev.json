@@ -47,6 +47,11 @@
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
         "required": true
+      },
+      {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
       }
     ],
     "modsRequiredByDefault": true

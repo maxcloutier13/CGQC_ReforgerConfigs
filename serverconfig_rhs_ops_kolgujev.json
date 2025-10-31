@@ -38,7 +38,7 @@
       "missionHeader": {}
     },
     "mods": [
-       {
+      {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
@@ -49,25 +49,25 @@
         "required": true
       },
       {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
+      },
+      {
         "modId": "66BB276B523D505B",
         "name": "cgqc_rhs",
         "required": true
       },
       {
-            "modId": "61B514B96692C049",
-            "name": "ConflictPVERemixedVanilla2.0",
-            "version": "2.4.0"
-        },
-            {
-            "modId": "66BD40A1582AAB40",
-            "name": "ConflictPVERemixedTweak",
-            "version": "1.0.6"
-        },
-            {
-            "modId": "66B612E8C24044E5",
-            "name": "FOG Arsenal RACC",
-            "version": "1.0.14"
-        }
+          "modId": "61B514B96692C049",
+          "name": "ConflictPVERemixedVanilla2.0",
+          "version": "2.4.0"
+      },
+          {
+          "modId": "66BD40A1582AAB40",
+          "name": "ConflictPVERemixedTweak",
+          "version": "1.0.6"
+      }
 
     ],
     "modsRequiredByDefault": true
