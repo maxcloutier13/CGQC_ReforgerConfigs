@@ -1,0 +1,82 @@
+{
+  "bindAddress": "0.0.0.0",
+  "bindPort": 2001,
+  "publicAddress": "184.144.203.157",
+  "publicPort": 2001,
+  "a2s": {
+    "address": "0.0.0.0",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "0.0.0.0",
+    "port": 2002,
+    "password": "!CGQC147",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "CGQC - Vanilla",
+    "password": "147",
+    "passwordAdmin": "CGQC147",
+    "admins": [],
+    "scenarioId": "{D8253A9909511192}Missions/Escapists_Eden.conf",
+    "maxPlayers": 32,
+    "visible": true,
+    "crossPlatform": false,
+    "supportedPlatforms": [
+      "PLATFORM_PC"
+    ],
+    "gameProperties": {
+      "serverMaxViewDistance": 1700,
+      "serverMinGrassDistance": 50,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": false,
+      "VONDisableDirectSpeechUI": false,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {}
+    },
+    "mods": [
+      {
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_core",
+        "required": true
+      },
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
+        "required": true
+      },
+      {
+        "modId": "5F16D7E4A1CBE075",
+        "name": "ESCAPISTS",
+        "required": true
+      },
+      {
+        "modId": "66AAB0873717CEF0",
+        "name": "SCRTCORE",
+        "required": true
+      } 
+      ,
+      {
+        "modId": "66AD0B6D6E7A6A97",
+        "name": "SRCTSHARED",
+        "required": true
+      }     
+    ],
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 120,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}
