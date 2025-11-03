@@ -17,7 +17,7 @@
         "name": "CGQC - Aikrune",
         "password": "147",
         "passwordAdmin": "CGQC147",
-        "admins": [],
+        "admins": ["76561198024730191"],
         "scenarioId": "{584793358C8E1AB0}Missions/ZimnitritaPVE.conf",
         "maxPlayers": 32,
         "visible": true,

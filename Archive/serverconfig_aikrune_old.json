@@ -11,7 +11,7 @@
         "name": "CGQC - Reforger - Aikrune",
         "password": "147",
         "passwordAdmin": "CGQC147",
-        "admins": [],
+        "admins": ["76561198024730191"],
         "scenarioId": "{9D2D546F1E889561}Missions/GM_Zimnitrita.conf",
         "maxPlayers": 32,
         "visible": true,

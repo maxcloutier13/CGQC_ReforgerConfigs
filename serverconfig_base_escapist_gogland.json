@@ -17,7 +17,7 @@
     "name": "CGQC - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
-    "admins": [],
+    "admins": ["76561198024730191"],
     "scenarioId": "{9BF54068EAB61E9C}Missions/Escapists_Gogland.conf",
     "maxPlayers": 32,
     "visible": true,

@@ -17,7 +17,7 @@
     "name": "CGQC - Vanilla - GM",
     "password": "147",
     "passwordAdmin": "CGQC147",
-    "admins": [],
+    "admins": ["76561198024730191"],
     "scenarioId": "{F45C6C15D31252E6}Missions/27_GM_Cain.conf",
     "maxPlayers": 32,
     "visible": true,

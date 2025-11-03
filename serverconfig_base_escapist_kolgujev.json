@@ -17,7 +17,7 @@
     "name": "CGQC - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
-    "admins": [],
+    "admins": ["76561198024730191"],
     "scenarioId": "{45A046794EC4DE44}Missions/Escapists_Kolguyev.conf",
     "maxPlayers": 32,
     "visible": true,

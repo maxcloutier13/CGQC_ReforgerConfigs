@@ -17,7 +17,7 @@
     "name": "CGQC - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
-    "admins": [],
+    "admins": ["76561198024730191"],
     "scenarioId": "{CB347F2F10065C9C}Missions/CombatOpsCain.conf",
     "maxPlayers": 32,
     "visible": true,

@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla - GM",
+    "name": "CGQC - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
-    "scenarioId": "{2BBBE828037C6F4B}Missions/22_GM_Arland.conf",
+    "scenarioId": "{64B2F8D8059EE270}Missions/FreedomFighters/Everon.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -46,6 +46,16 @@
       {
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
+        "required": true
+      },
+      {
+        "modId": "CAFEBEEFF0CACC1A",
+        "name": "Freedom Fighters",
+        "required": true
+      },
+      {
+        "modId": "665AABC9776468B4",
+        "name": "GrouplessCSI",
         "required": true
       }
     ],

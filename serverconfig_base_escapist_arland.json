@@ -17,7 +17,7 @@
     "name": "CGQC - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
-    "admins": [],
+    "admins": ["76561198024730191"],
     "scenarioId": "{B76E6CFDF056031F}Missions/Escapists_Arland.conf",
     "maxPlayers": 32,
     "visible": true,

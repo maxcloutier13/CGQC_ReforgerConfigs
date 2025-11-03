@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla - GM",
+    "name": "CGQC - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
-    "scenarioId": "{2BBBE828037C6F4B}Missions/22_GM_Arland.conf",
+    "scenarioId": "{DFAC5FABD11F2390}Missions/26_CombatOpsEveron.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,

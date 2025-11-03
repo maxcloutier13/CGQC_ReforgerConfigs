@@ -17,7 +17,7 @@
     "name": "CGQC - RHS",
     "password": "147",
     "passwordAdmin": "CGQC147",
-    "admins": [],
+    "admins": ["76561198024730191"],
     "scenarioId": "{2BBBE828037C6F4B}Missions/22_GM_Arland.conf",
     "maxPlayers": 32,
     "visible": true,

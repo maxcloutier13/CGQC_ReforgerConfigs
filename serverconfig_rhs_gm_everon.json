@@ -17,7 +17,7 @@
     "name": "CGQC - RHS",
     "password": "147",
     "passwordAdmin": "CGQC147",
-    "admins": [],
+    "admins": ["76561198024730191"],
     "scenarioId": "{59AD59368755F41A}Missions/21_GM_Eden.conf",
     "maxPlayers": 32,
     "visible": true,
