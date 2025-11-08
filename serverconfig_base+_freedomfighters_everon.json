@@ -44,6 +44,11 @@
         "required": true
       },
       {
+        "modId": "66CD63D4161FA7CA",
+        "name": "cgqc_ace_nomedical",
+        "required": true
+      },
+      {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true
@@ -54,8 +59,13 @@
         "required": true
       },
       {
-        "modId": "66BEFBF71FC73A14",
-        "name": "cgqc_addons_1.6",
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_core",
+        "required": true
+      },
+      {
+        "modId": "66D105ED77AB8D92",
+        "name": "cgqc_ai",
         "required": true
       },
       {
@@ -64,17 +74,23 @@
         "required": true
       },
       {
+        "modId": "66B4CBAF9C85672D",
+        "name": "FF - Arsenal Loot System",
+        "required": true
+      },
+      {
         "modId": "665AABC9776468B4",
-        "name": "GrouplessCSI",
+        "name": "CSI Groupless",
         "required": true
       }
+      
     ],
     "modsRequiredByDefault": true
   },
   "operating": {
     "lobbyPlayerSynchronise": true,
     "playerSaveTime": 120,
-    "aiLimit": 60,
+    "aiLimit": -1,
     "slotReservationTimeout": 90,
     "disableServerShutdown": false,
     "disableCrashReporter": false,

@@ -44,6 +44,11 @@
         "required": true
       },
       {
+        "modId": "66CD63D4161FA7CA",
+        "name": "cgqc_ace_nomedical",
+        "required": true
+      },
+      {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true

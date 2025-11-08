@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - RHS",
+    "name": "CGQC - Vanilla - ModTesting",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
-    "scenarioId": "{D10B11A71A36FCF5}Missions/RHS_CombatOps_USMC_vs_MSV.conf",
+    "scenarioId": "{59AD59368755F41A}Missions/21_GM_Eden.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -69,10 +69,10 @@
         "required": true
       },
       {
-        "modId": "66BB276B523D505B",
-        "name": "cgqc_rhs",
+        "modId": "652C5A060DE977D6",
+        "name": "move",
         "required": true
-      }
+      }     
     ],
     "modsRequiredByDefault": true
   },
