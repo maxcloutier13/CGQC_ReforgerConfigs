@@ -49,18 +49,13 @@
         "required": true
       },
       {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },
-      {
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
         "required": true
       },
       {
-        "modId": "66BB20CA43330BC2",
-        "name": "cgqc_core",
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
         "required": true
       },
       {
@@ -79,11 +74,20 @@
         "required": true
       },
       {
-        "modId": "665AABC9776468B4",
-        "name": "CSI Groupless",
+        "modId": "6220E058122209D9",
+        "name": "CarRadioModestAI",
         "required": true
-      }
-      
+      },
+      {
+        "modId": "5EDB1D94A87AA78B",
+        "name": "StayAliveForever",
+        "required": true
+      },
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      }           
     ],
     "modsRequiredByDefault": true
   },
