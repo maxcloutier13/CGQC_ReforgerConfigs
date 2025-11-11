@@ -1,7 +1,7 @@
 {
   "bindAddress": "0.0.0.0",
   "bindPort": 2001,
-  "publicAddress": "184.144.203.157",
+  "publicAddress": "184.144.203.221",
   "publicPort": 2001,
   "a2s": {
     "address": "0.0.0.0",
@@ -15,10 +15,10 @@
   },
   "game": {
     "name": "CGQC - Vanilla - ModTesting",
-    "password": "741",
+    "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
-    "scenarioId": "{E2EC49F13FBAC56F}Missions/FreedomFighters/Arland.conf",
+    "scenarioId": "{59AD59368755F41A}Missions/21_GM_Eden.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -38,72 +38,6 @@
       "missionHeader": {}
     },
     "mods": [
-      {
-        "modId": "66BB20CA43330BC2",
-        "name": "cgqc_core",
-        "required": true
-      },
-      {
-        "modId": "66CD63D4161FA7CA",
-        "name": "cgqc_ace_nomedical",
-        "required": true
-      },
-      
-      {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
-        "required": true
-      },
-      {
-        "modId": "66BEFBF71FC73A14",
-        "name": "cgqc_addons_1.6",
-        "required": true
-      },
-      {
-        "modId": "66D105ED77AB8D92",
-        "name": "cgqc_ai",
-        "required": true
-      },
-      {
-        "modId": "CAFEBEEFF0CACC1A",
-        "name": "Freedom Fighters",
-        "required": true
-      },
-      {
-        "modId": "66B4CBAF9C85672D",
-        "name": "FF - Arsenal Loot System",
-        "required": true
-      },
-      {
-        "modId": "6220E058122209D9",
-        "name": "CarRadioModestAI",
-        "required": true
-      },
-      {
-        "modId": "613B4DD4A91CA144",
-        "name": "LMSuppression",
-        "required": true
-      },
-      {
-        "modId": "5EDB1D94A87AA78B",
-        "name": "StayAliveForever",
-        "required": true
-      },
-      {
-        "modId": "654A0BADA97077C9",
-        "name": "togglemirror",
-        "required": true
-      },
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },
-      {
-        "modId": "664E7464C94E08FB",
-        "name": "radioKeybinds",
-        "required": true
-      }
     ],
     "modsRequiredByDefault": true
   },

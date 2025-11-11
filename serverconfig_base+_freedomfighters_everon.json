@@ -1,7 +1,7 @@
 {
   "bindAddress": "0.0.0.0",
   "bindPort": 2001,
-  "publicAddress": "184.144.203.157",
+  "publicAddress": "184.144.203.221",
   "publicPort": 2001,
   "a2s": {
     "address": "0.0.0.0",
@@ -14,7 +14,7 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla",
+    "name": "CGQC - Vanilla+",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
@@ -79,10 +79,20 @@
         "required": true
       },
       {
-        "modId": "5EDB1D94A87AA78B",
-        "name": "StayAliveForever",
+        "modId": "5EE4F56A883654EB",
+        "name": "StayAlive",
         "required": true
       },
+      {
+        "modId": "651D290C8664C5DF",
+        "name": "Knives",
+        "required": true
+      },
+      {
+        "modId": "651D290C8664C5DF",
+        "name": "GRADLocks",
+        "required": true
+      },            
       {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
