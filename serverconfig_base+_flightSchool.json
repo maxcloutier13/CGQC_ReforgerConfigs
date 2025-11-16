@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla+",
+    "name": "CGQC - Vanilla+ FlightSchool",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+    "scenarioId": "{7C502A7EA89A2EAA}Missions/EveronFlightSchool.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -44,13 +44,8 @@
         "required": true
       },
       {
-        "modId": "66CD63304921080F",
-        "name": "cgqc_ace",
-        "required": true
-      },
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
+        "modId": "66CD63D4161FA7CA",
+        "name": "cgqc_ace_nomedical",
         "required": true
       },
       {
@@ -62,7 +57,48 @@
         "modId": "66BEFBF71FC73A14",
         "name": "cgqc_addons_1.6",
         "required": true
-      }
+      },
+      {
+        "modId": "66D105ED77AB8D92",
+        "name": "cgqc_ai",
+        "required": true
+      },
+      
+      {
+        "modId": "669B05A579CD516C",
+        "name": "flightSchoolMap",
+        "required": true
+      },
+      {
+        "modId": "6273146ADFE8241D",
+        "name": "AH6",
+        "required": true
+      },
+      {
+        "modId": "59D64ADD6FC59CBF",
+        "name": "UH60",
+        "required": true
+      },
+      {
+        "modId": "5CCCC1DFB9C93581",
+        "name": "AH64",
+        "required": true
+      }, 
+      {
+        "modId": "64CB39E57377C861",
+        "name": "AH1S",
+        "required": true
+      },       
+      {
+        "modId": "6220E058122209D9",
+        "name": "ModestAIRadio",
+        "required": true
+      },
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      }           
     ],
     "modsRequiredByDefault": true
   },

@@ -1,7 +1,7 @@
 {
   "bindAddress": "0.0.0.0",
   "bindPort": 2001,
-  "publicAddress": "184.144.203.221",
+  "publicAddress": "75.158.251.121",
   "publicPort": 2001,
   "a2s": {
     "address": "0.0.0.0",
@@ -47,12 +47,7 @@
         "modId": "66CD63304921080F",
         "name": "cgqc_ace",
         "required": true
-      },
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },
+      },      
       {
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
@@ -81,6 +76,11 @@
       {
         "modId": "6550CDE61DD51E14",
         "name": "Novka",
+        "required": true
+      }
+      ,{
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
         "required": true
       }
     ],

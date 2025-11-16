@@ -1,7 +1,7 @@
 {
   "bindAddress": "0.0.0.0",
   "bindPort": 2001,
-  "publicAddress": "184.144.203.221",
+  "publicAddress": "75.158.251.121",
   "publicPort": 2001,
   "a2s": {
     "address": "0.0.0.0",
@@ -74,25 +74,25 @@
         "required": true
       },
       {
-        "modId": "6220E058122209D9",
-        "name": "CarRadioModestAI",
-        "required": true
-      },
-      {
         "modId": "5EE4F56A883654EB",
         "name": "StayAlive",
         "required": true
       },
       {
-        "modId": "651D290C8664C5DF",
-        "name": "Knives",
+        "modId": "665F026040EB5CE6",
+        "name": "VanillaBuild Expansion",
         "required": true
       },
       {
-        "modId": "651D290C8664C5DF",
-        "name": "GRADLocks",
+        "modId": "6220E058122209D9",
+        "name": "CarRadioModestAI",
         "required": true
-      },            
+      },
+      {
+        "modId": "66DE15760F187E40",
+        "name": "WhereIsTheBattle",
+        "required": true
+      },      
       {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
