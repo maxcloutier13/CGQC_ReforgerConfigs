@@ -66,14 +66,13 @@
       {
         "modId": "CAFEBEEFF0CACC1A",
         "name": "Freedom Fighters",
-        "version": "0.58.0",
         "required": true
       },
       {
         "modId": "66B4CBAF9C85672D",
         "name": "FF - Arsenal Loot System",
         "required": true
-      },
+      },      
       {
         "modId": "5EE4F56A883654EB",
         "name": "StayAlive",
@@ -88,11 +87,6 @@
         "modId": "66DE15760F187E40",
         "name": "WhereIsTheBattle",
         "required": true
-      }, 
-      {
-        "modId": "65134A128837CAA7",
-        "name": "ColdWarColors",
-        "required": true
       },  
       {
         "modId": "617AC5E57EF1D9E3",
@@ -103,22 +97,52 @@
         "modId": "64ED6553B8AF6B62",
         "name": "AtmosWeatherMod",
         "required": true
-      },      
+      },
+      {
+        "modId": "5E524E4FEECCA92B",
+        "name": "BMP",
+        "required": true
+      },  
+      {
+        "modId": "5E0AB16BEB16D6A4",
+        "name": "T-72",
+        "required": true
+      },  
+       {
+        "modId": "66B523AD189F3233",
+        "name": "BanditGear",
+        "required": true
+      },  
+      {
+        "modId": "65F6F424AA624241",
+        "name": "Balaclava",
+        "required": true
+      }, 
+      {
+        "modId": "66DB2D99384AC908",
+        "name": "ConcealedCarry",
+        "required": true
+      },
+      {
+        "modId": "667D5808EB22ED72",
+        "name": "MarkerGrenades and flares",
+        "required": true
+      },           
       {
         "modId": "6528C95796EBEDE0",
         "name": "EnvironmentalAmbienceMod",
         "required": true
       },
       {
+        "modId": "665754CB5D6A728F",
+        "name": "FFSonarFix",
+        "required": true
+      },       
+      {
         "modId": "66E3256D49613609",
         "name": "cgqc_music",
         "required": true
       },       
-      {
-        "modId": "665754CB5D6A728F",
-        "name": "FFSonarFix",
-        "required": true
-      },        
       {
         "modId": "657459BA0BEA92BB",
         "name": "HelicopterHUD",
@@ -129,11 +153,7 @@
         "name": "VONUISimplification",
         "required": true
       },
-      {
-        "modId": "6698F8DD1B444BEB",
-        "name": "DarcMissionsCompatFF",
-        "required": true
-      },            
+             
       {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
