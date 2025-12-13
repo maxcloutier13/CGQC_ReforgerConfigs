@@ -1,20 +1,20 @@
 {
-  "bindAddress": "0.0.0.0",
+  "bindAddress": "192.168.20.97",
   "bindPort": 2001,
-  "publicAddress": "75.158.251.121",
+  "publicAddress": "207.134.47.97",
   "publicPort": 2001,
   "a2s": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 17777
   },
   "rcon": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 2002,
     "password": "!CGQC147",
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
@@ -26,8 +26,8 @@
       "PLATFORM_PC"
     ],
     "gameProperties": {
-      "serverMaxViewDistance": 1700,
-      "serverMinGrassDistance": 50,
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
       "networkViewDistance": 1500,
       "disableThirdPerson": true,
       "fastValidation": true,
@@ -48,6 +48,21 @@
         "name": "cgqc_ace",
         "required": true
       },
+      {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
+      },
+       {
+        "modId": "66D105ED77AB8D92",
+        "name": "cgqc_ai",
+        "required": true
+      },
+      {
+        "modId": "66E3256D49613609",
+        "name": "cgqc_music",
+        "required": true
+      }, 
       {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",

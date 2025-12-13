@@ -1,20 +1,20 @@
 {
-  "bindAddress": "0.0.0.0",
+  "bindAddress": "192.168.20.97",
   "bindPort": 2001,
-  "publicAddress": "75.158.251.121",
+  "publicAddress": "207.134.47.97",
   "publicPort": 2001,
   "a2s": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 17777
   },
   "rcon": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 2002,
     "password": "!CGQC147",
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla - ModTesting",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla - ModTesting",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
@@ -26,8 +26,8 @@
       "PLATFORM_PC"
     ],
     "gameProperties": {
-      "serverMaxViewDistance": 1700,
-      "serverMinGrassDistance": 50,
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
       "networkViewDistance": 1500,
       "disableThirdPerson": true,
       "fastValidation": true,
@@ -38,6 +38,66 @@
       "missionHeader": {}
     },
     "mods": [
+        {
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_core",
+        "required": true
+      },
+      {
+        "modId": "66CD63D4161FA7CA",
+        "name": "cgqc_ace",
+        "required": true
+      },
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
+        "required": true
+      },
+      {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
+      },
+      {
+        "modId": "66D105ED77AB8D92",
+        "name": "cgqc_ai",
+        "required": true
+      },
+      {
+        "modId": "66EB0C9543D1D4AF",
+        "name": "cgqc_vics",
+        "required": true
+      },
+      {
+        "modId": "66E3256D49613609",
+        "name": "cgqc_music",
+        "required": true
+      },
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
+        "required": true
+      },
+      {
+        "modId": "61BA4EB5C886D396",
+        "name": "WCS_VehicleLocks",
+        "required": true
+      },
+      {
+        "modId": "66B4F5265F51B847",
+        "name": "TTT_ConnectionManager",
+        "required": true
+      },
+      {
+        "modId": "65F121EE116E5906",
+        "name": "NightAI",
+        "required": true
+      },  
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      }       
     ],
     "modsRequiredByDefault": true
   },

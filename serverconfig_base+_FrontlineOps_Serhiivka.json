@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla+",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Front",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+    "scenarioId": "{14CFBD7AB51C36E1}Missions/Serhiivka.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -44,13 +44,8 @@
         "required": true
       },
       {
-        "modId": "66CD63D4161FA7CA",
+        "modId": "66CD63304921080F",
         "name": "cgqc_ace",
-        "required": true
-      },
-      {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
         "required": true
       },
       {
@@ -59,15 +54,10 @@
         "required": true
       },
       {
-        "modId": "66D105ED77AB8D92",
-        "name": "cgqc_ai",
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
         "required": true
       },
-      {
-        "modId": "66EB0C9543D1D4AF",
-        "name": "cgqc_vics",
-        "required": true
-      },   
       {
         "modId": "66E3256D49613609",
         "name": "cgqc_music",
@@ -77,7 +67,12 @@
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true
-      } 
+      },
+      {
+        "modId": "67020E6ABF5E2BEE",
+        "name": "EE_Serhiivka",
+        "required": true
+      }
     ],
     "modsRequiredByDefault": true
   },

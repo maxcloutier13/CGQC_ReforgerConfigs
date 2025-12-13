@@ -1,16 +1,16 @@
 
 
 {
-    "bindAddress": "0.0.0.0",
+    "bindAddress": "192.168.20.97",
     "bindPort": 2001,
     "publicAddress": "184.144.203.140",
     "publicPort": 2001,
     "a2s": {
-        "address": "0.0.0.0",
+        "address": "192.168.20.97",
         "port": 17777
     },
     "game": {
-        "name": "CGQC - Reforger",
+        "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Reforger",
         "password": "147",
         "passwordAdmin": "CGQC147",
         "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
@@ -20,8 +20,8 @@
         "crossPlatform": false,
         "supportedPlatforms": [ "PLATFORM_PC" ],
         "gameProperties": {
-            "serverMaxViewDistance": 1700,
-            "serverMinGrassDistance": 50,
+            "serverMaxViewDistance": 3000,
+            "serverMinGrassDistance": 150,
             "networkViewDistance": 1500,
             "disableThirdPerson": false,
             "fastValidation": true,

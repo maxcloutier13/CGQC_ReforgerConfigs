@@ -14,8 +14,8 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla+",
-    "password": "147",
+      "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - RHS - TEST",
+    "password": "741",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
     "scenarioId": "{64B2F8D8059EE270}Missions/FreedomFighters/Everon.conf",
@@ -38,13 +38,13 @@
       "missionHeader": {}
     },
     "mods": [
-      {
+   {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
       },
       {
-        "modId": "66CD63D4161FA7CA",
+        "modId": "670AF813518ECDFE",
         "name": "cgqc_ace_nomedical",
         "required": true
       },
@@ -59,15 +59,10 @@
         "required": true
       },
       {
-        "modId": "66D105ED77AB8D92",
-        "name": "cgqc_ai",
-        "required": true
-      },
-      {
         "modId": "66EB0C9543D1D4AF",
         "name": "cgqc_vics",
         "required": true
-      },
+      },     
       {
         "modId": "66EB0E96506E1FDF",
         "name": "cgqc_ff",
@@ -88,27 +83,113 @@
         "name": "ConcealedCarry",
         "required": true
       },
-
-      {
-        "modId": "64ED6553B8AF6B62",
-        "name": "AtmosWeatherMod",
-        "required": true
-      },
-      {
-        "modId": "6528C95796EBEDE0",
-        "name": "EnvironmentalAmbienceMod",
-        "required": true
-      },
       {
         "modId": "66E3256D49613609",
         "name": "cgqc_music",
         "required": true
       },       
       {
+        "modId": "65FD2D030AEB16A6",
+        "name": "FF_RHS",
+        "required": true
+      },
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
+        "required": true
+      },  
+      {
+        "modId": "66F87A85382A0B17",
+        "name": "RHS EPF persistence",
+        "required": true
+      },      
+             {
+        "modId": "61BA4EB5C886D396",
+        "name": "WCS_Locks",
+        "required": true
+      },    
+      {
+        "modId": "65CCB10717C80EBC",
+        "name": "EditInventory",
+        "required": true
+      },
+      {
+        "modId": "65CE8E0E6C14A7AB",
+        "name": "EditRHS",
+        "required": true
+      },
+      {
+        "modId": "64777D2DF8DC665F",
+        "name": "RHS_Vanillacompat",
+        "required": true
+      },    
+      {
+        "modId": "65D08E0825A12E2C",
+        "name": "RHS-DroneCompat",
+        "required": true
+      },      
+      {
+        "modId": "66212054B3A0EDC6",
+        "name": "MapExport",
+        "required": true
+      },  
+      {
+        "modId": "5EE13DDF41732F9C",
+        "name": "ReforgerReplay",
+        "required": true
+      }, 
+
+      
+      {
+        "modId": "631D360C3F75E01D",
+        "name": "character",
+        "required": true
+      },  
+      {
+        "modId": "631CD0023FD58D35",
+        "name": "ai",
+        "required": true
+      },
+      {
+        "modId": "631D61C22E30D845",
+        "name": "effects",
+        "required": true
+      },
+      {
+        "modId": "631C0CCC3F4506CB",
+        "name": "vehicles",
+        "required": true
+      },
+      {
+        "modId": "653942F38B7C23DE",
+        "name": "map",
+        "required": true
+      },
+      {
+        "modId": "631CA3F82A68518D",
+        "name": "MPFixes",
+        "required": true
+      },
+      {
+        "modId": "645D30E43E09B9D8",
+        "name": "Loadouts",
+        "required": true
+      },
+
+      
+      
+      
+      {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true
-      }           
+      },           
+      {
+        "modId": "67093B735FC57652",
+        "name": "cgqc_backpack",
+        "required": true
+      }  
+    
     ],
     "modsRequiredByDefault": true
   },

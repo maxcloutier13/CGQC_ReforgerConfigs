@@ -1,20 +1,20 @@
 {
-  "bindAddress": "0.0.0.0",
+  "bindAddress": "192.168.20.97",
   "bindPort": 2001,
-  "publicAddress": "75.158.251.121",
+  "publicAddress": "207.134.47.97",
   "publicPort": 2001,
   "a2s": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 17777
   },
   "rcon": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 2002,
     "password": "!CGQC147",
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - Vanilla",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
@@ -26,8 +26,8 @@
       "PLATFORM_PC"
     ],
     "gameProperties": {
-      "serverMaxViewDistance": 1700,
-      "serverMinGrassDistance": 50,
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
       "networkViewDistance": 1500,
       "disableThirdPerson": true,
       "fastValidation": true,
@@ -39,48 +39,8 @@
     },
     "mods": [
       {
-        "modId": "66BB20CA43330BC2",
-        "name": "cgqc_core",
-        "required": true
-      },
-      {
-        "modId": "66CD63304921080F",
-        "name": "cgqc_ace",
-        "required": true
-      },
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },
-      {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
-        "required": true
-      },
-      {
-        "modId": "5F16D7E4A1CBE075",
-        "name": "ESCAPISTS",
-        "required": true
-      },
-      {
-        "modId": "66AAB0873717CEF0",
-        "name": "SCRTCORE",
-        "required": true
-      },
-      {
-        "modId": "66AD0B6D6E7A6A97",
-        "name": "SRCTSHARED",
-        "required": true
-      },
-      {
-        "modId": "627AB6E0887D25F1",
-        "name": "Escapists - Gogland",
-        "required": true
-      },
-      {
-        "modId": "623EEDF242F6265E",
-        "name": "Gogland",
+        "modId": "6550CDE61DD51E14",
+        "name": "Novka",
         "required": true
       }
     ],

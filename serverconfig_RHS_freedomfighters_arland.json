@@ -1,0 +1,271 @@
+{
+  "bindAddress": "192.168.20.97",
+  "bindPort": 2001,
+  "publicAddress": "207.134.47.97",
+  "publicPort": 2001,
+  "a2s": {
+    "address": "207.134.47.97",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "192.168.20.97",
+    "port": 2002,
+    "password": "!CGQC147",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - RHS",
+    "password": "147",
+    "passwordAdmin": "CGQC741",
+    "admins": ["76561198024730191"],
+    "scenarioId": "{E2EC49F13FBAC56F}Missions/FreedomFighters/Arland.conf",
+    "maxPlayers": 32,
+    "visible": true,
+    "crossPlatform": false,
+    "supportedPlatforms": [
+      "PLATFORM_PC"
+    ],
+    "gameProperties": {
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": false,
+      "VONDisableDirectSpeechUI": false,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {
+        "m_ACE_Settings": {
+          "m_ACE_CookOff_Settings": {
+            "m_fMinCookOffDelay": 5.0,
+            "m_fMaxCookOffDelay": 11.0
+          },
+          "m_ACE_Finger_Settings": {
+            "m_fMaxPointingDistanceM": 1000.0,
+            "m_bCanPingAttach": 0,
+            "m_fPingRangeM": 15.0,
+            "m_fMapPointingRangeM": 15.0
+          },
+          "m_ACE_Overheating_Settings": {
+            "m_fHeatingScale": 1.0,
+            "m_fDefaultAirCoolingScale": 1.0,
+            "m_fOpenBoltAirCoolingScale": 1.3,
+            "m_fWaterCoolingScale": 18.0,
+            "m_fJamChanceScale": 1.0,
+            "m_fClearJamFailureChance": 0.1,
+            "m_fGunpowderAutoignitionTemperature": 473.15,
+            "m_fBaseHeatTransferCoefficient": 125.63,
+            "m_fBarrel2BulletMassScaledTemperatureRateConstant": 2.031,
+            "m_fMuzzleDispersionScale": 1.0,
+            "m_fMinSmokeTemperature": 500.0,
+            "m_fMinGlowTemperature": 800.0
+          },
+          "m_ACE_Medical_Core": {
+            "m_fDefaultResilienceRegenScale": 0.3,
+            "m_fResilienceDamageScale": 1.0,
+            "m_fMinHealthScaledForEpinephrine": 0.33,
+            "m_bPlayerCannotDie": 0,
+            "m_bBleedOutForPlayersEnabled": 1,
+            "m_fBleedingRateScale": 1.0,
+            "m_fMaxTotalBleedingRate": -1.0,
+            "m_fBloodRegenScale": 1.0,
+            "m_fMedicalKitMaxHealScaled": 1.0,
+            "m_fMedicalKitHealingPerExecution": 10.0,
+            "m_ePainScreenEffectType": 1,
+            "m_fSecondChanceResilienceRegenScale": 0.0,
+            "m_fDefaultSecondChance": 1.0,
+            "m_fSecondChanceOnHead": 0.6,
+            "m_fSecondChanceOnChest": 1.0,
+            "m_fSecondChanceOnAbdomen": 1.0,
+            "m_bSecondChanceForFallDamageEnabled": 1,
+            "m_bSecondChanceForAIEnabled": 0
+          },
+          "m_ACE_Medical_Hitzones": {
+            "m_bOrganHitZonesEnabled": 1,
+            "m_fSecondChanceOnHeart": 0.2
+          },
+          "m_ACE_Medical_Circulation": {
+            "m_fDefaultHeartRateBPM": 80.0,
+            "m_fDefaultStrokeVolumeML": 95.0,
+            "m_fDefaultMeanArterialPressureKPA": 12.443,
+            "m_fDefaultPulsePressureKPA": 5.3329,
+            "m_UnstableThresholds": {
+                "m_fHeartRateLowBPM": 40.0,
+                "m_fHeartRateHighBPM": 220.0,
+                "m_fMeanArterialPressureLowKPA": 7.11,
+                "m_fMeanArterialPressureHighKPA": 29.5,
+                "m_fMaxHeartForMeanArterialPressureLowBPM": 80.0,
+                "m_eBloodState": 3
+            },
+            "m_CriticalThresholds": {
+                "m_fHeartRateLowBPM": 30.0,
+                "m_fHeartRateHighBPM": 220.0,
+                "m_fMeanArterialPressureLowKPA": 5.21,
+                "m_fMeanArterialPressureHighKPA": 29.5,
+                "m_fMaxHeartForMeanArterialPressureLowBPM": 40.0,
+                "m_eBloodState": 4
+            },
+            "m_CardiacArrestThresholds": {
+                "m_fHeartRateLowBPM": 20.0,
+                "m_fHeartRateHighBPM": 220.0,
+                "m_fMeanArterialPressureLowKPA": 5.21,
+                "m_fMeanArterialPressureHighKPA": 29.5,
+                "m_fMaxHeartForMeanArterialPressureLowBPM": 30.0,
+                "m_eBloodState": 5
+            },
+            "m_CardiacArrestDamageEffect": {
+                "m_fBrainDamageRate": 0.333,
+                "m_fEffectStartDelayS": 10.0
+            },
+            "m_bCardiacArrestForAIEnabled": 0,
+            "m_fCPRStrokeVolumeScale": 0.23,
+            "m_fCPRSuccessCheckTimeoutS": 22.0,
+            "m_fCPRSuccessChanceMin": 0.2,
+            "m_fCPRSuccessChanceMax": 0.5,
+            "m_fAmmoniumCarbonateSuccessChanceMin": 0.5,
+            "m_fAmmoniumCarbonateSuccessChanceMax": 1.0,
+            "m_fMaxRevivalResilienceRecoveryScale": 0.2,
+            "m_fCardiacArrestMaxTotalBleedingRate": 20.0
+          }
+        }
+      }
+    },
+    "mods": [
+      {
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_core",
+        "required": true
+      },
+      {
+        "modId": "670AF813518ECDFE",
+        "name": "cgqc_ace_dev_nomedical",
+        "required": true
+      },
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
+        "required": true
+      },
+      {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
+      },
+      {
+        "modId": "66EB0C9543D1D4AF",
+        "name": "cgqc_vics",
+        "required": true
+      },     
+      {
+        "modId": "66EB0E96506E1FDF",
+        "name": "cgqc_ff",
+        "required": true
+      },      
+      {
+        "modId": "66B523AD189F3233",
+        "name": "BanditGear",
+        "required": true
+      },  
+      {
+        "modId": "65F6F424AA624241",
+        "name": "Balaclava",
+        "required": true
+      }, 
+      {
+        "modId": "66DB2D99384AC908",
+        "name": "ConcealedCarry",
+        "required": true
+      },
+      {
+        "modId": "64ED6553B8AF6B62",
+        "name": "AtmosWeatherMod",
+        "required": true
+      },
+      {
+        "modId": "6528C95796EBEDE0",
+        "name": "EnvironmentalAmbienceMod",
+        "required": true
+      },
+      {
+        "modId": "66E3256D49613609",
+        "name": "cgqc_music",
+        "required": true
+      },       
+      {
+        "modId": "65FD2D030AEB16A6",
+        "name": "FF_RHS",
+        "required": true
+      },
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
+        "required": true
+      },  
+      {
+        "modId": "66F87A85382A0B17",
+        "name": "RHS EPF persistence",
+        "required": true
+      },
+      {
+        "modId": "65CCB10717C80EBC",
+        "name": "EditInventory",
+        "required": true
+      },
+      {
+        "modId": "65CE8E0E6C14A7AB",
+        "name": "EditRHS",
+        "required": true
+      },
+      {
+        "modId": "64777D2DF8DC665F",
+        "name": "RHS_Vanillacompat",
+        "required": true
+      },    
+      {
+        "modId": "65D08E0825A12E2C",
+        "name": "RHS-DroneCompat",
+        "required": true
+      },      
+      {
+        "modId": "66212054B3A0EDC6",
+        "name": "MapExport",
+        "required": true
+      },  
+      {
+        "modId": "5EE13DDF41732F9C",
+        "name": "ReforgerReplay",
+        "required": true
+      },   
+      {
+        "modId": "670C1442629B8324",
+        "name": "cgqc_realism",
+        "required": true
+      },                
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      },       
+        
+      {
+        "modId": "67093B735FC57652",
+        "name": "cgqc_backpack",
+        "required": true
+      }
+    ],
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 120,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}

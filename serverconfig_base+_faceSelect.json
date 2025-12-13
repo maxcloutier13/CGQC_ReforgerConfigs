@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla+",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla+ FaceSelection",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+    "scenarioId": "{F45C6C15D31252E6}Missions/27_GM_Cain.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -39,45 +39,10 @@
     },
     "mods": [
       {
-        "modId": "66BB20CA43330BC2",
-        "name": "cgqc_core",
+        "modId": "670AFEC452EBBD58",
+        "name": "FaceSelect",
         "required": true
-      },
-      {
-        "modId": "66CD63D4161FA7CA",
-        "name": "cgqc_ace",
-        "required": true
-      },
-      {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
-        "required": true
-      },
-      {
-        "modId": "66BEFBF71FC73A14",
-        "name": "cgqc_addons_1.6",
-        "required": true
-      },
-      {
-        "modId": "66D105ED77AB8D92",
-        "name": "cgqc_ai",
-        "required": true
-      },
-      {
-        "modId": "66EB0C9543D1D4AF",
-        "name": "cgqc_vics",
-        "required": true
-      },   
-      {
-        "modId": "66E3256D49613609",
-        "name": "cgqc_music",
-        "required": true
-      },       
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      } 
+      }     
     ],
     "modsRequiredByDefault": true
   },

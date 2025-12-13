@@ -1,10 +1,10 @@
 {
-    "bindAddress": "0.0.0.0",
+    "bindAddress": "192.168.20.97",
     "bindPort": 2225,
     "publicAddress": "70.51.42.81",
     "publicPort": 2225,
     "a2s": {
-        "address": "0.0.0.0",
+        "address": "192.168.20.97",
         "port": 2226
     },
     "game": {
@@ -18,8 +18,8 @@
         "crossPlatform": false,
         "supportedPlatforms": [ "PLATFORM_PC" ],
         "gameProperties": {
-            "serverMaxViewDistance": 1700,
-            "serverMinGrassDistance": 50,
+            "serverMaxViewDistance": 3000,
+            "serverMinGrassDistance": 150,
             "networkViewDistance": 1500,
             "disableThirdPerson": false,
             "fastValidation": true,

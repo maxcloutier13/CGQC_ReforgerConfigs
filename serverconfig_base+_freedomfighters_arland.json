@@ -4,7 +4,7 @@
   "publicAddress": "207.134.47.97",
   "publicPort": 2001,
   "a2s": {
-    "address": "192.168.20.97",
+    "address": "0.0.0.0",
     "port": 17777
   },
   "rcon": {
@@ -16,9 +16,9 @@
   "game": {
     "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla+",
     "password": "147",
-    "passwordAdmin": "CGQC147",
+    "passwordAdmin": "CGQC741",
     "admins": ["76561198024730191"],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+    "scenarioId": "{E2EC49F13FBAC56F}Missions/FreedomFighters/Arland.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -45,7 +45,7 @@
       },
       {
         "modId": "66CD63D4161FA7CA",
-        "name": "cgqc_ace",
+        "name": "cgqc_ace_nomedical",
         "required": true
       },
       {
@@ -67,7 +67,37 @@
         "modId": "66EB0C9543D1D4AF",
         "name": "cgqc_vics",
         "required": true
-      },   
+      },
+      {
+        "modId": "66EB0E96506E1FDF",
+        "name": "cgqc_ff",
+        "required": true
+      },      
+      {
+        "modId": "66B523AD189F3233",
+        "name": "BanditGear",
+        "required": true
+      },  
+      {
+        "modId": "65F6F424AA624241",
+        "name": "Balaclava",
+        "required": true
+      }, 
+      {
+        "modId": "66DB2D99384AC908",
+        "name": "ConcealedCarry",
+        "required": true
+      },
+      {
+        "modId": "64ED6553B8AF6B62",
+        "name": "AtmosWeatherMod",
+        "required": true
+      },
+      {
+        "modId": "6528C95796EBEDE0",
+        "name": "EnvironmentalAmbienceMod",
+        "required": true
+      },
       {
         "modId": "66E3256D49613609",
         "name": "cgqc_music",
@@ -77,7 +107,7 @@
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true
-      } 
+      }           
     ],
     "modsRequiredByDefault": true
   },

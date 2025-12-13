@@ -1,20 +1,20 @@
 {
-  "bindAddress": "0.0.0.0",
+  "bindAddress": "192.168.20.97",
   "bindPort": 2001,
-  "publicAddress": "75.158.251.121",
+  "publicAddress": "207.134.47.97",
   "publicPort": 2001,
   "a2s": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 17777
   },
   "rcon": {
-    "address": "0.0.0.0",
+    "address": "192.168.20.97",
     "port": 2002,
     "password": "!CGQC147",
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - RHS",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - RHS",
     "password": "147",
     "passwordAdmin": "CGQC147",
     "admins": ["76561198024730191"],
@@ -26,8 +26,8 @@
       "PLATFORM_PC"
     ],
     "gameProperties": {
-      "serverMaxViewDistance": 1700,
-      "serverMinGrassDistance": 50,
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
       "networkViewDistance": 1500,
       "disableThirdPerson": true,
       "fastValidation": true,
@@ -43,9 +43,14 @@
         "name": "cgqc_core",
         "required": true
       },
+       {
+        "modId": "670AF813518ECDFE",
+        "name": "cgqc_ace_dev_nomedical",
+        "required": true
+      },
       {
-        "modId": "66CD63304921080F",
-        "name": "cgqc_ace",
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
         "required": true
       },
       {
@@ -59,15 +64,46 @@
         "required": true
       },
       {
-        "modId": "66BB20CA43330BC2",
-        "name": "cgqc_core",
+        "modId": "66D105ED77AB8D92",
+        "name": "cgqc_ai_casual",
+        "required": true
+      },
+      
+      {
+        "modId": "66EB0C9543D1D4AF",
+        "name": "cgqc_vics",
         "required": true
       },
       {
-        "modId": "66D105ED77AB8D92",
-        "name": "cgqc_ai",
+        "modId": "66E3256D49613609",
+        "name": "cgqc_music",
+        "required": true
+      },       
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
         "required": true
       },
+      {
+        "modId": "65CCB10717C80EBC",
+        "name": "EditInventory",
+        "required": true
+      },
+      {
+        "modId": "65CE8E0E6C14A7AB",
+        "name": "EditRHS",
+        "required": true
+      },
+      {
+        "modId": "64777D2DF8DC665F",
+        "name": "RHS_Vanillacompat",
+        "required": true
+      },    
+      {
+        "modId": "65D08E0825A12E2C",
+        "name": "RHS-DroneCompat",
+        "required": true
+      },   
       {
         "modId": "66BB276B523D505B",
         "name": "cgqc_rhs",
