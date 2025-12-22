@@ -14,11 +14,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - TEST - RHS",
-    "password": "741",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - RHS",
+    "password": "147",
     "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-    "scenarioId": "{0A7D4B53357DA982}Missions/FreedomFighters/Zimnitrita.conf",
+    "scenarioId": "{76CCF96806A597D3}Missions/FFAnizay.conf",
     "maxPlayers": 32,
     "visible": true,
     "crossPlatform": false,
@@ -163,8 +163,8 @@
         "required": true
       },
       {
-        "modId": "66CCBDC57B922F6B",
-        "name": "FF_Zimnitrita",
+        "modId": "664529F506AEDC79",
+        "name": "FF_Anizay",
         "required": true
       },     
       {
@@ -177,11 +177,6 @@
         "name": "Balaclava",
         "required": true
       }, 
-      {
-        "modId": "66DB2D99384AC908",
-        "name": "ConcealedCarry",
-        "required": true
-      },
       {
         "modId": "64ED6553B8AF6B62",
         "name": "AtmosWeatherMod",
@@ -201,52 +196,7 @@
         "modId": "65FD2D030AEB16A6",
         "name": "FF_RHS",
         "required": true
-      },
-      {
-        "modId": "66F87A85382A0B17",
-        "name": "RHS EPF persistence",
-        "required": true
-      },
-      {
-        "modId": "65CCB10717C80EBC",
-        "name": "EditInventory",
-        "required": true
-      },
-      {
-        "modId": "65CE8E0E6C14A7AB",
-        "name": "EditRHS",
-        "required": true
-      },
-      {
-        "modId": "64777D2DF8DC665F",
-        "name": "RHS_Vanillacompat",
-        "required": true
-      },    
-      {
-        "modId": "65D08E0825A12E2C",
-        "name": "RHS-DroneCompat",
-        "required": true
       },      
-      {
-        "modId": "66212054B3A0EDC6",
-        "name": "MapExport",
-        "required": true
-      },  
-      {
-        "modId": "5EE13DDF41732F9C",
-        "name": "ReforgerReplay",
-        "required": true
-      },   
-      {
-        "modId": "66FABCFA598B90AF",
-        "name": "SpawnWatchLight",
-        "required": true
-      },
-      {
-        "modId": "5EE13DDF41732F9C",
-        "name": "ReforgerReplay",
-        "required": true
-      },   
       {
         "modId": "670F38925E7F3717",
         "name": "cgqc_ai_casual",

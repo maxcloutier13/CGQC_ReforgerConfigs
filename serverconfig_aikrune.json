@@ -1,7 +1,7 @@
 {
     "bindAddress": "192.168.20.97",
     "bindPort": 2001,
-    "publicAddress": "207.134.47.97",
+    "publicAddress": "66.110.139.214",
     "publicPort": 2001,
     "a2s": {
         "address": "192.168.20.97",
@@ -16,8 +16,8 @@
     "game": {
         "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Aikrune",
         "password": "147",
-        "passwordAdmin": "CGQC147",
-        "admins": ["76561198024730191"],
+        "passwordAdmin": "FRK9D",
+        "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
         "scenarioId": "{584793358C8E1AB0}Missions/ZimnitritaPVE.conf",
         "maxPlayers": 32,
         "visible": true,
