@@ -1,7 +1,6 @@
 {
   "bindAddress": "192.168.20.97",
   "bindPort": 2001,
-  "publicAddress": "66.110.139.214",
   "publicPort": 2001,
   "a2s": {
     "address": "66.110.139.214",
@@ -14,8 +13,8 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - TEST - RHS",
-    "password": "741",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - RHS",
+    "password": "879",
     "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
     "scenarioId": "{0A7D4B53357DA982}Missions/FreedomFighters/Zimnitrita.conf",
@@ -32,8 +31,8 @@
       "disableThirdPerson": true,
       "fastValidation": true,
       "battlEye": false,
-      "VONDisableUI": false,
-      "VONDisableDirectSpeechUI": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
       "VONCanTransmitCrossFaction": true,
       "missionHeader": {
         "m_ACE_Settings": {
@@ -162,26 +161,17 @@
         "name": "cgqc_ff",
         "required": true
       },
+
       {
-        "modId": "66CCBDC57B922F6B",
+        "modId": "66273EDDE929C484",
         "name": "FF_Zimnitrita",
         "required": true
-      },     
-      {
-        "modId": "66B523AD189F3233",
-        "name": "BanditGear",
-        "required": true
-      },  
+      },
       {
         "modId": "65F6F424AA624241",
         "name": "Balaclava",
         "required": true
       }, 
-      {
-        "modId": "66DB2D99384AC908",
-        "name": "ConcealedCarry",
-        "required": true
-      },
       {
         "modId": "64ED6553B8AF6B62",
         "name": "AtmosWeatherMod",
@@ -201,52 +191,7 @@
         "modId": "65FD2D030AEB16A6",
         "name": "FF_RHS",
         "required": true
-      },
-      {
-        "modId": "66F87A85382A0B17",
-        "name": "RHS EPF persistence",
-        "required": true
-      },
-      {
-        "modId": "65CCB10717C80EBC",
-        "name": "EditInventory",
-        "required": true
-      },
-      {
-        "modId": "65CE8E0E6C14A7AB",
-        "name": "EditRHS",
-        "required": true
-      },
-      {
-        "modId": "64777D2DF8DC665F",
-        "name": "RHS_Vanillacompat",
-        "required": true
-      },    
-      {
-        "modId": "65D08E0825A12E2C",
-        "name": "RHS-DroneCompat",
-        "required": true
       },      
-      {
-        "modId": "66212054B3A0EDC6",
-        "name": "MapExport",
-        "required": true
-      },  
-      {
-        "modId": "5EE13DDF41732F9C",
-        "name": "ReforgerReplay",
-        "required": true
-      },   
-      {
-        "modId": "66FABCFA598B90AF",
-        "name": "SpawnWatchLight",
-        "required": true
-      },
-      {
-        "modId": "5EE13DDF41732F9C",
-        "name": "ReforgerReplay",
-        "required": true
-      },   
       {
         "modId": "670F38925E7F3717",
         "name": "cgqc_ai_casual",
@@ -256,7 +201,22 @@
         "modId": "66BB276B523D505B",
         "name": "cgqc_rhs",
         "required": true
-      },      
+      },   
+      {
+        "modId": "64DE57C0A1601D14",
+        "name": "lunacyAudio",
+        "required": true
+      },    
+      {
+        "modId": "66EE3582A17A8FB7",
+        "name": "SHExtremeDynamicRange",
+        "required": true
+      },   
+      {
+        "modId": "650F545AB9B7E3CD",
+        "name": "LunacyOverdrive",
+        "required": true
+      },   
       {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
