@@ -2,8 +2,8 @@
   "bindAddress": "192.168.20.97",
   "bindPort": 2001,
   "publicPort": 2001,
-  "a2s": {
-    "address": "192.168.20.97",
+"a2s": {
+    "address": "0.0.0.0",
     "port": 17777
   },
   "rcon": {

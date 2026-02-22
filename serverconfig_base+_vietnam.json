@@ -1,0 +1,680 @@
+{
+  "bindAddress": "192.168.20.97",
+  "bindPort": 2001,
+  "publicPort": 2001,
+  "a2s": {
+    "address": "142.59.63.50",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "192.168.20.97",
+    "port": 2002,
+    "password": "!CGQC147",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - Vietnam",
+    "password": "879",
+    "passwordAdmin": "CGQC741",
+    "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
+    "scenarioId": "{F75156290BD52E30}Missions/EoH_Vietnam_Liberation.conf",
+    "maxPlayers": 32,
+    "visible": true,
+    "crossPlatform": false,
+    "supportedPlatforms": [
+      "PLATFORM_PC"
+    ],
+    "gameProperties": {
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": false,
+      "VONDisableDirectSpeechUI": false,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {}
+    },
+    "mods": [
+    	{
+      "modId": "6491367787FE846E",
+      "name": "M16  Half Track",
+      "version": "1.0.3"
+      },
+      {
+        "modId": "685360E9D818137C",
+        "name": "EoH Teleport System",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "62A711001B8FDEEA",
+        "name": "Big Chungus Rifles",
+        "version": "1.0.39"
+      },
+      {
+        "modId": "685336E2D74C1D2B",
+        "name": "EoH GM Camera NoClip",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "650941A7E9B6855B",
+        "name": "Morphine Buff ACE",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "64F10E068D5880A6",
+        "name": "GM Tools",
+        "version": "2.1.17"
+      },
+      {
+        "modId": "5965550F24A0C152",
+        "name": "Where Am I",
+        "version": "1.2.0"
+      },
+      {
+        "modId": "63270EF73C314C27",
+        "name": "Destructible Bushes",
+        "version": "1.0.6"
+      },
+      {
+        "modId": "6509272707765439",
+        "name": "EOH Huey Pack",
+        "version": "2.0.39"
+      },
+      {
+        "modId": "64E1024E69E937C9",
+        "name": "RPG_Targeting_Overhaul",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "665B1AF5996EB7AA",
+        "name": "ARMA-RY M1911A1 PISTOL",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "667B6976EA4EC788",
+        "name": "M-1949 Recon GLoves",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "67160B8E19778D03",
+        "name": "EOH Heli Pack 3",
+        "version": "1.0.37"
+      },
+      {
+        "modId": "60FE076C3B3F3F17",
+        "name": "EnhancedStamina",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "68982D12018ABDC6",
+        "name": "EoH Mk19 Blacklist",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "60C4CE4888FF4621",
+        "name": "ACE Core",
+        "version": "1.4.1"
+      },
+      {
+        "modId": "64CC4AA4C1E80C43",
+        "name": "EoH Vietnam Core",
+        "version": "2.5.9"
+      },
+      {
+        "modId": "66F0FA1883386DCB",
+        "name": "Chopped M60",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "6844245C4E218B18",
+        "name": "M48 Patton Fix",
+        "version": "1.0.33"
+      },
+      {
+        "modId": "64B42E9FABA61904",
+        "name": "Huey Sound Replace",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "5F268647F8A1A1F4",
+        "name": "CRX Enfusion A.I.",
+        "version": "1.3.40"
+      },
+      {
+        "modId": "60DF519BEC7A5649",
+        "name": "Force Garbage Collect",
+        "version": "0.0.2"
+      },
+      {
+        "modId": "665B3E73D7215B29",
+        "name": "ARMA-RY DELTA 1911",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "66950499EC6EAC73",
+        "name": "Punji Pit",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "6078A3A24681EFBF",
+        "name": "VON UI for Gamemasters",
+        "version": "1.0.4"
+      },
+      {
+        "modId": "665EE024AE553612",
+        "name": "EE_Infinite Mags for AI",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "684A3BE44045FA16",
+        "name": "EoH Tunnels Compositions Pack",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "6866A6D203679B9F",
+        "name": "M113_FIX",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "64B32C8DC02D2364",
+        "name": "SIMPLE CIG AND JOINT",
+        "version": "1.0.8"
+      },
+      {
+        "modId": "687F75055CFE54CA",
+        "name": "EoH GC Suppression Config",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "611ABE2F73802440",
+        "name": "WZ Turrets",
+        "version": "1.0.62"
+      },
+      {
+        "modId": "686611791D0DC756",
+        "name": "HelicopterLimiterTEST",
+        "version": "1.0.21"
+      },
+      {
+        "modId": "66E955B2FCC22766",
+        "name": "EoH Vietnam Navmesh",
+        "version": "1.0.9"
+      },
+      {
+        "modId": "64CB39E57377C861",
+        "name": "WCS_AH-1S",
+        "version": "6.0.6"
+      },
+      {
+        "modId": "669B72CAE98CBCBB",
+        "name": "Kolt 608 Survival",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "64CF0892887635F0",
+        "name": "MOOSES SERIOUS NAM PACK",
+        "version": "1.0.75"
+      },
+      {
+        "modId": "6730FB5A6302F4C7",
+        "name": "Zagoria 89 T55",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "684CE8AA3B1D6573",
+        "name": "GC Suppression",
+        "version": "1.0.19"
+      },
+      {
+        "modId": "625101377AA2D208",
+        "name": "M48 Patton",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "66496DD578E9C052",
+        "name": "Sephros Deep Jungle Pack",
+        "version": "1.0.13"
+      },
+      {
+        "modId": "66E17220425377A5",
+        "name": "EOH Heli Pack 2",
+        "version": "1.0.12"
+      },
+      {
+        "modId": "669301B3FD5E0631",
+        "name": "EoH MACV SOG GM Placeables",
+        "version": "1.0.6"
+      },
+      {
+        "modId": "66F668964E65DBD0",
+        "name": "SH GHOST EXPLOSIVE FUEL ASSETS",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "61C7218A86A97F56",
+        "name": "Operation RT NVA Weapons",
+        "version": "1.0.4"
+      },
+      {
+        "modId": "5F1EE615E7AE3106",
+        "name": "BGONE",
+        "version": "1.1.25"
+      },
+      {
+        "modId": "65EE581152C4E8A0",
+        "name": "EoH Blacklist Config",
+        "version": "1.2.66"
+      },
+      {
+        "modId": "652A2CC2C333E649",
+        "name": "EoH Cave Assets",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "66393237EC3C6FDB",
+        "name": "ARMA-RY M16 EARLY RIFLES",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "6614B4EBC1A63458",
+        "name": "ARMA-RY CORE",
+        "version": "1.0.25"
+      },
+      {
+        "modId": "656B0223BF28F34D",
+        "name": "M60 200rnd Box",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "6586079789278413",
+        "name": "ACE Medical Core Dev",
+        "version": "1.5.12"
+      },
+      {
+        "modId": "5D3CCC039449D1C8",
+        "name": "DiscordPlayerList",
+        "version": "1.0.22"
+      },
+      {
+        "modId": "657617FBC180A692",
+        "name": "EoH Vietnam Jungle Pack",
+        "version": "1.0.12"
+      },
+      {
+        "modId": "5E1777F2E2196D9F",
+        "name": "Bourbons Flares and Signals",
+        "version": "0.1.4"
+      },
+      {
+        "modId": "6893708AF0533850",
+        "name": "Deployable Stretcher",
+        "version": "1.0.4"
+      },
+      {
+        "modId": "6273146ADFE8241D",
+        "name": "WCS_AH-6M",
+        "version": "6.0.16"
+      },
+      {
+        "modId": "64FAB9D1ADF907A7",
+        "name": "SBBG - Crew Helmet Radios",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "65E1184281F9A5E2",
+        "name": "VietVoice",
+        "version": "1.0.8"
+      },
+      {
+        "modId": "68653A88C5A27342",
+        "name": "EoH GM Helicopters",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "66D6340C1D565C98",
+        "name": "Chungus Core",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "6598E39E8BEB0EFA",
+        "name": "Tactile Sound Enhancement",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "61B8ACF52AF46D98",
+        "name": "Place TNT on soldiers",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "61B514B96692C049",
+        "name": "ConflictPVERemixedVanilla2.0",
+        "version": "2.4.17"
+      },
+      {
+        "modId": "6208BA1AD9044ECA",
+        "name": "MEDEVAC Medical Helicopters",
+        "version": "2.0.8"
+      },
+      {
+        "modId": "689037A21CDD324F",
+        "name": "EoH Napalm",
+        "version": "1.0.9"
+      },
+      {
+        "modId": "62CCD69DD17E4F2F",
+        "name": "AKI_Core",
+        "version": "6.0.4"
+      },
+      {
+        "modId": "618CA6B942F0F894",
+        "name": "Longer Detonator Distances",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "66DAD560F3C0F854",
+        "name": "Vietnam Jungle Jeeps",
+        "version": "1.0.26"
+      },
+      {
+        "modId": "60C4C12DAE90727B",
+        "name": "ACE Medical Core",
+        "version": "1.4.1"
+      },
+      {
+        "modId": "607969DE27849456",
+        "name": "Khanh Trung Tree and Huts",
+        "version": "1.0.6"
+      },
+      {
+        "modId": "5C9AD9EF76F6B5EA",
+        "name": "ZU-23",
+        "version": "1.2.15"
+      },
+      {
+        "modId": "61D6C92FDBDCA020",
+        "name": "Operation RT US Vehicles",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "64E005C729DCAEA2",
+        "name": "USSR to PAVN",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "61344BDC155A5A28",
+        "name": "Big Chungus LMGs",
+        "version": "1.0.21"
+      },
+      {
+        "modId": "653B3CEC15DB7BA8",
+        "name": "PCS Persistent XP",
+        "version": "1.0.15"
+      },
+      {
+        "modId": "61BD6595183FCEBD",
+        "name": "Big Chungus Bolt Guns",
+        "version": "1.0.61"
+      },
+      {
+        "modId": "61E275028FE3E185",
+        "name": "FriendlyFireIndicator",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "60E6F54E174C53C5",
+        "name": "Big Chungus SMGs",
+        "version": "1.0.47"
+      },
+      {
+        "modId": "664767F93DD0F8EC",
+        "name": "Wave_sph4",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "65AD7C139EB4C1A1",
+        "name": "ACE Backblast Dev",
+        "version": "1.5.12"
+      },
+      {
+        "modId": "62D73B58A9DE3DA4",
+        "name": "ARMA CONFLICT VC GEAR MOD",
+        "version": "1.0.10"
+      },
+      {
+        "modId": "66E759E2C55AF2CB",
+        "name": "EoH Textures Pack 2",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "6672D5C3EB544E92",
+        "name": "Extra M1 Helmets",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "66EF35EEEBBF3C30",
+        "name": "EoH Community Signs - Rules.",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "65F177C4191DEE38",
+        "name": "MedicBackpackToFixBones",
+        "version": "1.1.0"
+      },
+      {
+        "modId": "6174A376E06661BF",
+        "name": "Brutal Voices",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "66E56978D9381850",
+        "name": "EoH Textures Pack 1",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "6088A3044B7ECBFD",
+        "name": "Keep Gun When Uncon",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "6856249AEAE5047E",
+        "name": "EoH Dynamic Spawn Handler",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "5E565045A0CB8105",
+        "name": "PE Vietnam Uniform Pack",
+        "version": "1.0.33"
+      },
+      {
+        "modId": "66E56684C7093401",
+        "name": "EoH Twisted Trees Pack",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "65AD7D4F994EA327",
+        "name": "ACE Medical Circulation Dev",
+        "version": "1.5.12"
+      },
+      {
+        "modId": "66E5605461D655D9",
+        "name": "Vietnamese Civilians",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "612830F96B025749",
+        "name": "M113ForConflict",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "6664F5DCE036A777",
+        "name": "EoH GM Helmets",
+        "version": "1.0.26"
+      },
+      {
+        "modId": "6628B3D82D16E6FA",
+        "name": "EoH_Flag",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "65E147E815D1591A",
+        "name": "ChillAccessories",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "650D5C1301C9AEDA",
+        "name": "WCS AH-6M Vietnam",
+        "version": "1.0.22"
+      },
+      {
+        "modId": "64CF448E2F43E6FF",
+        "name": "RecoilessJeep",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "664AFDC993C9CE1A",
+        "name": "ACE Cook-Off Dev",
+        "version": "1.5.12"
+      },
+      {
+        "modId": "616AA15BF7D547A1",
+        "name": "Aviators",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "65A2FB3B89C721C7",
+        "name": "EoH Vietnam AH1S Config",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "620E584B1D2C96A4",
+        "name": "Big Chungus Shotguns",
+        "version": "1.0.40"
+      },
+      {
+        "modId": "6218F2F47B4D9703",
+        "name": "WZ Helicopters",
+        "version": "1.0.44"
+      },
+      {
+        "modId": "6052A9DD45564825",
+        "name": "You can sit",
+        "version": "1.0.8"
+      },
+      {
+        "modId": "62E51C0709A07EF0",
+        "name": "Open Arsenal _ BEGONE",
+        "version": "1.0.20"
+      },
+      {
+        "modId": "66F21185D7E07396",
+        "name": "EoH Jungle Buildings Pack 1",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "671F73D99978B4F2",
+        "name": "ACE Medical Breathing Dev",
+        "version": "0.1.0"
+      },
+      {
+        "modId": "665176FA79EA5FBD",
+        "name": "Sephro Field Vietnam Uniforms",
+        "version": "1.0.47"
+      },
+      {
+        "modId": "66DCE017AD3E9799",
+        "name": "20th S.O.S UH1H",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "661D6D3A0219A7FE",
+        "name": "DECAL PACK",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "664D2A4D07DB68DE",
+        "name": "EOH Guntrucks",
+        "version": "1.0.17"
+      },
+      {
+        "modId": "64502CEF9AE7D4AD",
+        "name": "ERDL Camo",
+        "version": "1.0.4"
+      },
+      {
+        "modId": "6629244415B85CA8",
+        "name": "Eoh_Skully",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "68475C2CC8AAD966",
+        "name": "EoH Tunnels",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "656D76E7C5F1A478",
+        "name": "Hukis Vietnam Pack",
+        "version": "1.0.38"
+      },
+      {
+        "modId": "6190F1B505C08562",
+        "name": "Big Chungus Launchers",
+        "version": "1.0.33"
+      },
+      {
+        "modId": "653039DBD59CCD76",
+        "name": "EoH Vietnam Liberation 2",
+        "version": "1.0.104"
+      },
+      {
+        "modId": "66D82A6892012F4D",
+        "name": "RemoveArtillery",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "65D93AA203102812",
+        "name": "MACVSOGOPS",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "68735E91D8018ACA",
+        "name": "EoH Mossy Crags Pack",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "65620EB6C4D088B2",
+        "name": "Joes Eoh Vietnam Buildings",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "6132E76FBB852892",
+        "name": "ARMA CONFLICT Vietnamese Comms",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "62D40ADA443E60B9",
+        "name": "Hair & Beard",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "60B2AD8092C4C94A",
+        "name": "Disable GM Dynamic Simulation",
+        "version": "1.0.3"
+      }
+    ],
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 120,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}

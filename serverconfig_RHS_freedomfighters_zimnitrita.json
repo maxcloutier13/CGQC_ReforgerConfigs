@@ -3,7 +3,7 @@
   "bindPort": 2001,
   "publicPort": 2001,
   "a2s": {
-    "address": "66.110.139.214",
+    "address": "0.0.0.0",
     "port": 17777
   },
   "rcon": {
@@ -141,11 +141,7 @@
         "name": "cgqc_ace_dev_nomedical",
         "required": true
       },
-      {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
-        "required": true
-      },
+      
       {
         "modId": "66BEFBF71FC73A14",
         "name": "cgqc_addons_1.6",
@@ -217,16 +213,39 @@
         "name": "LunacyOverdrive",
         "required": true
       },   
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },      
+           
       {
         "modId": "67093B735FC57652",
         "name": "cgqc_backpack",
         "required": true
+      },      
+      {
+        "modId": "672D432E181E6807",
+        "name": "WCS_Holdbreath",
+        "required": true
+      },
+      {
+        "modId": "65117E01FC88FE08",
+        "name": "RTG Armbands",
+        "required": true
+      },
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      }, 
+      {
+        "modId": "688D0CCF80BFE6A4",
+        "name": "cgqc_radio_rhs",
+        "required": true
+      }, 
+      {
+        "modId": "673D50848A314906",
+        "name": "FF_GroupsUnlock",
+        "required": true
       }
+
+      
     ],
     "modsRequiredByDefault": true
   },

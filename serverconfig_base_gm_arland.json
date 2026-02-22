@@ -2,7 +2,7 @@
   "bindAddress": "192.168.20.97",
   "bindPort": 2001,
   "publicPort": 2001,
-  "a2s": {
+"a2s": {
     "address": "0.0.0.0",
     "port": 17777
   },
@@ -36,10 +36,10 @@
       "VONCanTransmitCrossFaction": true,
       "missionHeader": {}
     },
-    "mods": [
+    "mods": [ 
       {
-        "modId": "66BB20CA43330BC2",
-        "name": "cgqc_core",
+        "modId": "64F10E068D5880A6",
+        "name": "GMTools",
         "required": true
       }
     ],
