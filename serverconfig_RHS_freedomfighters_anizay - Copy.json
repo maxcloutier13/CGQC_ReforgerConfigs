@@ -117,7 +117,7 @@
                 "m_fBrainDamageRate": 0.333,
                 "m_fEffectStartDelayS": 10.0
             },
-            "m_bCardiacArrestForAIEnabled": 0,
+            "m_bCardiacArrestForAIEnabled": 1,
             "m_fCPRStrokeVolumeScale": 0.23,
             "m_fCPRSuccessCheckTimeoutS": 22.0,
             "m_fCPRSuccessChanceMin": 0.2,

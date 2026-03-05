@@ -13,7 +13,7 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - RHS",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - GM",
     "password": "879",
     "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
@@ -64,13 +64,10 @@
             "m_fDefaultResilienceRegenScale": 0.3,
             "m_fResilienceDamageScale": 1.0,
             "m_fMinHealthScaledForEpinephrine": 0.33,
-            "m_bPlayerCannotDie": 0,
             "m_bBleedOutForPlayersEnabled": 1,
             "m_fBleedingRateScale": 1.0,
             "m_fMaxTotalBleedingRate": -1.0,
             "m_fBloodRegenScale": 1.0,
-            "m_fMedicalKitMaxHealScaled": 1.0,
-            "m_fMedicalKitHealingPerExecution": 10.0,
             "m_ePainScreenEffectType": 1,
             "m_fSecondChanceResilienceRegenScale": 0.0,
             "m_fDefaultSecondChance": 1.0,
@@ -79,7 +76,7 @@
             "m_fSecondChanceOnAbdomen": 1.0,
             "m_bSecondChanceForFallDamageEnabled": 1,
             "m_bSecondChanceForAIEnabled": 0
-          },
+        },
           "m_ACE_Medical_Hitzones": {
             "m_bOrganHitZonesEnabled": 1,
             "m_fSecondChanceOnHeart": 0.2
@@ -117,7 +114,7 @@
                 "m_fBrainDamageRate": 0.333,
                 "m_fEffectStartDelayS": 10.0
             },
-            "m_bCardiacArrestForAIEnabled": 0,
+            "m_bCardiacArrestForAIEnabled": 1,
             "m_fCPRStrokeVolumeScale": 0.23,
             "m_fCPRSuccessCheckTimeoutS": 22.0,
             "m_fCPRSuccessChanceMin": 0.2,
@@ -126,7 +123,24 @@
             "m_fAmmoniumCarbonateSuccessChanceMax": 1.0,
             "m_fMaxRevivalResilienceRecoveryScale": 0.2,
             "m_fCardiacArrestMaxTotalBleedingRate": 20.0
-          }
+          },
+          "m_ACE_Medical_Breathing": {
+            "m_fAirwayObstructionChance": 0.15,
+            "m_fVomitChancePerMinute": 0.1,
+            "m_fVomitCooldown": 6.0,
+            "m_fPneumothoraxChance": 0.51,
+            "m_fPneumothoraxDeteriorationChancePerMinute": 0.5,
+            "m_fMaxPneumothoraxScale": 0.75,
+            "m_fPneumothoraxScaleDeteriorationStep": 0.18,
+            "m_fPneumothoraxArrestEnabled": 1,
+            "m_fTensionPneumothoraxChance": 0.15,
+            "m_fDeteriorateToTensionPneumothoraxChancePerMinute": 0.05,
+            "m_fDefaultRespiratoryRateBPM": 14.573,
+            "m_fMaxRespiratoryRateBPM": 40.0,
+            "m_fDefaultSpO2": 97.149,
+            "m_fDefaultPalvCO2KPA": 5.21,
+            "m_bPaCO2Enabled": 1
+        }
         }
       }
     },
@@ -134,6 +148,11 @@
       {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
+        "required": true
+      },
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
         "required": true
       },
       {
@@ -150,7 +169,18 @@
         "modId": "66EB0C9543D1D4AF",
         "name": "cgqc_vics",
         "required": true
-      },     
+      },    
+      {
+        "modId": "66EB4A3B15619C69",
+        "name": "cgqc_rotary",
+        "required": true
+      },
+      {
+        "modId": "66F95CFA501A2A32",
+        "name": "cgqc_rotary_opfor",
+        "required": true
+      },
+      
       {
         "modId": "66E3256D49613609",
         "name": "cgqc_music",
@@ -172,35 +202,37 @@
         "required": true
       },  
       {
-        "modId": "64DE57C0A1601D14",
-        "name": "lunacyAudio",
+        "modId": "68B306565FED48D9",
+        "name": "cgqc_audio",
         "required": true
-      },    
+      },      
       {
-        "modId": "66EE3582A17A8FB7",
-        "name": "SHExtremeDynamicRange",
+        "modId": "68B12D355F654C54",
+        "name": "cgqc_grs",
         "required": true
-      },   
-      {
-        "modId": "650F545AB9B7E3CD",
-        "name": "LunacyOverdrive",
-        "required": true
-      },  
-      {
-        "modId": "67093B735FC57652",
-        "name": "cgqc_backpack",
-        "required": true
-      },
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },     
+      },         
       {
         "modId": "688D0CCF80BFE6A4",
         "name": "cgqc_radio_rhs",
         "required": true
-      }   
+      },     
+      {
+        "modId": "68AF51A54FA778AC",
+        "name": "cgqc_faction_rhs_ace",
+        "required": true
+      },     
+      {
+        "modId": "671B4B88A1397B9D",
+        "name": "bonzUnitLoadout",
+        "required": true
+      },     
+      {
+        "modId": "61DEF91D55CA4930",
+        "name": "DirecVoiceTweak",
+        "required": true
+      } 
+
+      
     ],
     "modsRequiredByDefault": true
   },

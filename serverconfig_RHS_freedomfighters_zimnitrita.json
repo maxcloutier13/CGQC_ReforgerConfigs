@@ -13,7 +13,7 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - RHS",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - FreedomFighter",
     "password": "879",
     "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
@@ -117,7 +117,7 @@
                 "m_fBrainDamageRate": 0.333,
                 "m_fEffectStartDelayS": 10.0
             },
-            "m_bCardiacArrestForAIEnabled": 0,
+            "m_bCardiacArrestForAIEnabled": 1,
             "m_fCPRStrokeVolumeScale": 0.23,
             "m_fCPRSuccessCheckTimeoutS": 22.0,
             "m_fCPRSuccessChanceMin": 0.2,
@@ -134,6 +134,11 @@
       {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
+        "required": true
+      },
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
         "required": true
       },
       {
@@ -243,9 +248,12 @@
         "modId": "673D50848A314906",
         "name": "FF_GroupsUnlock",
         "required": true
-      }
-
-      
+      },
+      {
+        "modId": "68AEEEC17EDC32E4",
+        "name": "cgqc_faction_rhs",
+        "required": true
+      }     
     ],
     "modsRequiredByDefault": true
   },
