@@ -18,12 +18,10 @@
     "passwordAdmin": "FRK9D",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
     "scenarioId": "{6550CDE61DD51E14}Missions/GM.conf",
-    "maxPlayers": 32,
+    "maxPlayers": 64,
     "visible": true,
-    "crossPlatform": false,
-    "supportedPlatforms": [
-      "PLATFORM_PC"
-    ],
+    "crossPlatform": true,
+    "supportedPlatforms": ["PLATFORM_PC", "PLATFORM_XBL", "PLATFORM_PSN"],
     "gameProperties": {
       "serverMaxViewDistance": 3000,
       "serverMinGrassDistance": 150,

@@ -15,7 +15,7 @@
         "passwordAdmin": "FRK9D",
         "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
         "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
-        "maxPlayers": 32,
+        "maxPlayers": 64,
         "visible": true,
         "crossPlatform": false,
         "supportedPlatforms": [ "PLATFORM_PC" ],

@@ -18,12 +18,10 @@
     "passwordAdmin": "FRK9D",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
     "scenarioId": "{3AD5C3E6BB400639}Missions/FreedomFighters/Kolguyev.conf",
-    "maxPlayers": 32,
+    "maxPlayers": 64,
     "visible": true,
-    "crossPlatform": false,
-    "supportedPlatforms": [
-      "PLATFORM_PC"
-    ],
+    "crossPlatform": true,
+    "supportedPlatforms": ["PLATFORM_PC", "PLATFORM_XBL", "PLATFORM_PSN"],
     "gameProperties": {
       "serverMaxViewDistance": 3000,
       "serverMinGrassDistance": 150,
@@ -43,8 +41,8 @@
         "required": true
       },
       {
-        "modId": "66CD63D4161FA7CA",
-        "name": "cgqc_ace_nomedical",
+        "modId": "670AF64751851FC2",
+        "name": "cgqc_ace_dev",
         "required": true
       },
       {
@@ -66,7 +64,14 @@
         "modId": "665AABC9776468B4",
         "name": "GrouplessCSI",
         "required": true
+      },
+      {
+        "modId": "68DC33B21E340EA1",
+        "name": "MisfitsAdminTool",
+        "required": true
       }
+
+      
     ],
     "modsRequiredByDefault": true
   },

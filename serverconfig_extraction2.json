@@ -18,12 +18,10 @@
     "passwordAdmin": "CGQC741",
     "admins": [],
     "scenarioId": "{61BC555E9B479DF1}Missions/ARMST_Survival.conf",
-    "maxPlayers": 32,
+    "maxPlayers": 64,
     "visible": true,
-    "crossPlatform": false,
-    "supportedPlatforms": [
-      "PLATFORM_PC"
-    ],
+    "crossPlatform": true,
+    "supportedPlatforms": ["PLATFORM_PC", "PLATFORM_XBL", "PLATFORM_PSN"],
     "gameProperties": {
       "serverMaxViewDistance": 3000,
       "serverMinGrassDistance": 150,

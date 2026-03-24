@@ -13,7 +13,7 @@
         "passwordAdmin": "FRK9D",
         "admins": [ "76561198057658135", "76561197981463935", "76561198024730191" ],
         "scenarioId": "{9166343CE3B6C085}Missions/COE2_Mogadishu.conf",
-        "maxPlayers": 32,
+        "maxPlayers": 64,
         "visible": true,
         "crossPlatform": false,
         "supportedPlatforms": [ "PLATFORM_PC" ],
