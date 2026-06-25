@@ -1,0 +1,64 @@
+{
+  "bindAddress": "192.168.20.97",
+  "bindPort": 2001,
+  "publicPort": 2001,
+  "a2s": {
+    "address": "0.0.0.0",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "192.168.20.97",
+    "port": 2002,
+    "password": "frk9d",
+    "permission": "admin"
+  },
+  "game": {
+   "name": "CoopGamingQuébec QCFR - Enrôlez-vous! cgqc.ca - WW2",
+    "password": "879",
+    "passwordAdmin": "CGQC741",
+    "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
+   
+    "scenarioId": "{2BBBE828037C6F4B}Missions/22_GM_Arland.conf",
+    "maxPlayers": 64,
+    "visible": true,
+    "crossPlatform": true,
+    "supportedPlatforms": ["PLATFORM_PC", "PLATFORM_XBL", "PLATFORM_PSN"],
+    "gameProperties": {
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {
+      }
+    },
+
+    "mods": [      
+      {
+        "modId": "670F0D77153F7212",
+        "name": "WarfareWW2",
+        "required": true
+      }
+
+      
+    ],
+      
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 600,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}

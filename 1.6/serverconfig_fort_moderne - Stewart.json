@@ -1,0 +1,250 @@
+{
+  "bindAddress": "192.168.20.97",
+  "bindPort": 2001,
+  "publicPort": 2001,
+  "a2s": {
+    "address": "0.0.0.0",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "192.168.20.97",
+    "port": 2002,
+    "password": "frk9d",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "CGQC - Training - Moderne",
+    "password": "879",
+    "passwordAdmin": "CGQC741",
+    "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
+ "scenarioId": "{0C052EE2282A284B}Missions/Fort_Stewart_CGQC.conf",
+    "maxPlayers": 64,
+    "visible": true,
+    "crossPlatform": true,
+    "supportedPlatforms": ["PLATFORM_PC", "PLATFORM_XBL", "PLATFORM_PSN"],
+    "gameProperties": {
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {
+      }
+    },
+    "mods": [
+     {
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_core",
+        "required": true
+      }, 
+      {
+      
+        "modId": "690E1690B26A1D4E",
+        "name": "cgqc_beret",
+        "required": true
+      }, 
+      
+      
+      
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
+        "required": true
+      }, 
+      {
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_files",
+        "required": true
+      },
+      {
+        "modId": "68B538DB540596CA",
+        "name": "cgqc_gm",
+        "required": true
+      },
+      {
+        "modId": "68B306565FED48D9",
+        "name": "cgqc_audio",
+        "required": true
+      }, 
+      {
+        "modId": "66E3256D49613609",
+        "name": "cgqc_music",
+        "required": true
+      },    
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      }, 
+      {
+        "modId": "688D0CCF80BFE6A4",
+        "name": "cgqc_radio_rhs",
+        "required": true
+      },
+      {
+        "modId": "68B53542530EA6C6",
+        "name": "cgqc_topography",
+        "required": true
+      }, 
+       {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
+      },
+      {
+        "modId": "68DE15A04B518582",
+        "name": "cgqc_ai_milsim",
+        "required": true
+      },  
+      {
+        "modId": "692458CB6BB8531A",
+        "name": "cgqc_movement",
+        "required": true
+      },       
+
+
+
+
+      {
+        "modId": "66EB0C9543D1D4AF",
+        "name": "cgqc_vics",
+        "required": true
+      },  
+      {
+        "modId": "68FC23575F569B2D",
+        "name": "cgqc_vics_moderne",
+        "required": true
+      },         
+      {
+        "modId": "66EB4A3B15619C69",
+        "name": "cgqc_rotary",
+        "required": true
+      },
+      {
+        "modId": "66F95CFA501A2A32",
+        "name": "cgqc_rotary_opfor",
+        "required": true
+      },
+     
+
+
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
+        "required": true
+      }, 
+      {
+        "modId": "68B12D355F654C54",
+        "name": "cgqc_grs",
+        "required": true
+      },      
+      {
+        "modId": "68D5640B430A9ED2",
+        "name": "cgqc_equipment_core",
+        "required": true
+      },  
+      {
+        "modId": "68D7310850F35BD8",
+        "name": "cgqc_equipment_moderne",
+        "required": true
+      }, 
+      {
+        "modId": "68C628334C58DEFD",
+        "name": "cgqc_setup_moderne",
+        "required": true
+      },
+       {
+        "modId": "670AF64751851FC2",
+        "name": "cgqc_ace_dev",
+        "required": true
+      },        
+      {
+        "modId": "68C24D295E407853",
+        "name": "cgqc_medical",
+        "required": true
+      },       
+
+
+
+
+
+      {
+        "modId": "68FC062054BB6D8B",
+        "name": "cgqc_training",
+        "required": true
+      }, 
+      {
+        "modId": "68FC341D5E50CEA4",
+        "name": "cgqc_training_moderne",
+        "required": true
+      },       
+      {
+        "modId": "68F93DD556EEABD1",
+        "name": "cgqc_force_faction_UPO",
+        "required": true
+      }, 
+
+      {
+        "modId": "691751795451761F",
+        "name": "cgqc_rangeTools",
+        "required": true
+      },
+       {
+          "modId": "694C40EC8798D45F",
+          "name": "CGQC_Save_OnQuit",
+          "required": true
+      },
+      {
+        "modId": "694E575D2AD51736",
+        "name": "Bird_Map",
+        "required": true
+      },
+      {
+        "modId": "5C73156675E11A0F",
+        "name": "GMLoadouts",
+        "required": true
+      },
+      
+      {
+        "modId": "666F38C032B6628F",
+        "name": "FortStewart",
+        "required": true
+      },
+      
+      {
+        "modId": "6968109E815079F3",
+        "name": "CGQC_Training_Stewart",
+        "required": true
+      },
+      {
+        "modId": "696821B3874AFEF7",
+        "name": "CGQC_Training_Stewart_Moderne",
+        "required": true
+      },
+      
+       {
+        "modId": "3EDE571ADFFE2443",
+        "name": "LightningWeatherOverhaul",
+        "required": true
+      }
+       
+    ],
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 600,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}

@@ -9,15 +9,15 @@
   "rcon": {
     "address": "192.168.20.97",
     "port": 2002,
-    "password": "frk9d",
+    "password": "!CGQC147",
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC -CoopGamingQuébec -Enrôlez-vous! cgqc.ca -FreedomFighter",
-    "password": "",
-    "passwordAdmin": "frk9d",
+    "name": "CGQC - Enrôlez-vous! cgqc.ca - Main Server - Moderne",
+    "password": "879",
+    "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-    "scenarioId": "{F06016A62EBC2AA3}Missions/FreedomFighters/Glenwood_FF.conf",
+    "scenarioId": "{03D2E1730A11E50C}Missions/GameMaster_Kunar.conf",
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -29,112 +29,112 @@
       "disableThirdPerson": true,
       "fastValidation": true,
       "battlEye": false,
-      "VONDisableUI": false,
-      "VONDisableDirectSpeechUI": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
       "VONCanTransmitCrossFaction": true,
-      "missionHeader": {}
+            "missionHeader": {}
     },
-    "mods": [
+   "mods": [
       {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
-      },
+      },  
+      {
+        "modId": "68D5640B430A9ED2",
+        "name": "cgqc_core_equipment",
+        "required": true
+      },      
+      {
+        "modId": "670AF64751851FC2",
+        "name": "cgqc_ace_dev",
+        "required": true
+      },     
+      {
+        "modId": "68C24D295E407853",
+        "name": "cgqc_medical",
+        "required": true
+      },   
+      {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_16",
+        "required": true
+      },   
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
+        "required": true
+      },   
+      {
+        "modId": "68B12D355F654C54",
+        "name": "cgqc_grs",
+        "required": true
+      },   
+      {
+        "modId": "688D0CCF80BFE6A4",
+        "name": "cgqc_radio_rhs",
+        "required": true
+      },   
+      {
+        "modId": "670F38925E7F3717",
+        "name": "cgqc_ai_casual",
+        "required": true
+      },     
+      {
+        "modId": "68D7310850F35BD8",
+        "name": "cgqc_moderne_equipment",
+        "required": true
+      },   
+      {
+        "modId": "65774D07CD6906DD",
+        "name": "m40_upgraded",
+        "required": true
+      },   
+      {
+        "modId": "68D01420458F75E0",
+        "name": "cgqc_maps_korengal",
+        "required": true
+      },   
       {
         "modId": "68C36EED545A88C0",
         "name": "cgqc_utilities",
         "required": true
       },
       {
-        "modId": "670AF64751851FC2",
-        "name": "cgqc_ace_dev",
-        "required": true
-      },     
-       {
-        "modId": "66BEFBF71FC73A14",
-        "name": "cgqc_addons_1.6",
-        "required": true
-      },           
-      {
-        "modId": "68DE15A04B518582",
-        "name": "cgqc_ai_milsim",
-        "required": true
-      },      
-      {
-        "modId": "68D5640B430A9ED2",
-        "name": "cgqc_core_equipment",
-        "required": true
-      },
-      {
-        "modId": "66E3256D49613609",
-        "name": "cgqc_music",
-        "required": true
-      },
-      {
-        "modId": "6708F62D1760D5E8",
-        "name": "FFGlenwood",
-        "required": true
-      },
-      {
-        "modId": "66EB0E96506E1FDF",
-        "name": "cgqc_ff",
-        "required": true
-      },     
-      {
         "modId": "66EB0C9543D1D4AF",
         "name": "cgqc_vics",
         "required": true
-      },   
+      },    
       {
-        "modId": "64ED6553B8AF6B62",
-        "name": "AtmosWeatherMod",
+        "modId": "66EB4A3B15619C69",
+        "name": "cgqc_rotary",
         "required": true
       },
       {
-        "modId": "6528C95796EBEDE0",
-        "name": "EnvironmentalAmbienceMod",
+        "modId": "66F95CFA501A2A32",
+        "name": "cgqc_rotary_opfor",
+        "required": true
+      },
+      {
+        "modId": "68C628334C58DEFD",
+        "name": "cgqc_setup_moderne",
         "required": true
       }, 
       {
-        "modId": "68770A2A6E88C378",
-        "name": "FFBLackMarket",
+        "modId": "68D2307028D5786B",
+        "name": "cgqc_maps_kunar_moderne",
         "required": true
-      },      
+      }, 
       {
-        "modId": "68DC33B21E340EA1",
-        "name": "MisfitsAdminTool",
+        "modId": "68C438E1F3E379C1",
+        "name": "cgqc_force_faction",
         "required": true
-      },      
+      }, 
       {
-        "modId": "64594B4F6C4E9718",
-        "name": "ImprovedRagdolls",
+        "modId": "66E50A238FD98826",
+        "name": "IED_Random",
         "required": true
-      },      
-      {
-        "modId": "62113AA293414DBA",
-        "name": "KeepRagdollPose",
-        "required": true
-      },      
-      {
-        "modId": "62B0555FF0A21CA6",
-        "name": "CoalitionStatics",
-        "required": true
-      },      
-      {
-        "modId": "65AF216E36F839F6",
-        "name": "GMPlayerMarkers",
-        "required": true
-      },
-      {
-        "modId": "5EE4F56A883654EB",
-        "name": "StayAlive",
-        "required": true
-      },     
-      {
-        "modId": "68EEEA4E5E58FB02",
-        "name": "cgqc_respawnSound",
-        "required": true
-      }         
+      }      
     ],
     "modsRequiredByDefault": true
   },

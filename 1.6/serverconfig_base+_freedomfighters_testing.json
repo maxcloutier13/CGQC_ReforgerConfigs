@@ -136,11 +136,7 @@
         "name": "T-72",
         "required": true
       },  
-       {
-        "modId": "66B523AD189F3233",
-        "name": "BanditGear",
-        "required": true
-      },  
+ 
       {
         "modId": "65F6F424AA624241",
         "name": "Balaclava",

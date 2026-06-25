@@ -2,8 +2,8 @@
   "bindAddress": "192.168.20.97",
   "bindPort": 2001,
   "publicPort": 2001,
-"a2s": {
-    "address": "0.0.0.0",
+  "a2s": {
+    "address": "66.110.139.68",
     "port": 17777
   },
   "rcon": {
@@ -13,11 +13,11 @@
     "permission": "admin"
   },
   "game": {
-      "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - RHS - TEST",
-    "password": "741",
-    "passwordAdmin": "FRK9D",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - RHS",
+    "password": "879",
+    "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-    "scenarioId": "{64B2F8D8059EE270}Missions/FreedomFighters/Everon.conf",
+    "scenarioId": "{E2EC49F13FBAC56F}Missions/FreedomFighters/Arland.conf",
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -35,14 +35,14 @@
       "missionHeader": {}
     },
     "mods": [
-   {
+      {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
       },
       {
         "modId": "670AF813518ECDFE",
-        "name": "cgqc_ace_nomedical",
+        "name": "cgqc_ace_dev_nomedical",
         "required": true
       },
       {
@@ -65,11 +65,7 @@
         "name": "cgqc_ff",
         "required": true
       },      
-      {
-        "modId": "66B523AD189F3233",
-        "name": "BanditGear",
-        "required": true
-      },  
+ 
       {
         "modId": "65F6F424AA624241",
         "name": "Balaclava",
@@ -78,6 +74,16 @@
       {
         "modId": "66DB2D99384AC908",
         "name": "ConcealedCarry",
+        "required": true
+      },
+      {
+        "modId": "64ED6553B8AF6B62",
+        "name": "AtmosWeatherMod",
+        "required": true
+      },
+      {
+        "modId": "6528C95796EBEDE0",
+        "name": "EnvironmentalAmbienceMod",
         "required": true
       },
       {
@@ -99,12 +105,7 @@
         "modId": "66F87A85382A0B17",
         "name": "RHS EPF persistence",
         "required": true
-      },      
-             {
-        "modId": "61BA4EB5C886D396",
-        "name": "WCS_Locks",
-        "required": true
-      },    
+      },
       {
         "modId": "65CCB10717C80EBC",
         "name": "EditInventory",
@@ -134,59 +135,23 @@
         "modId": "5EE13DDF41732F9C",
         "name": "ReforgerReplay",
         "required": true
-      }, 
-
-      
+      },   
       {
-        "modId": "631D360C3F75E01D",
-        "name": "character",
+        "modId": "670C1442629B8324",
+        "name": "cgqc_realism",
         "required": true
-      },  
-      {
-        "modId": "631CD0023FD58D35",
-        "name": "ai",
-        "required": true
-      },
-      {
-        "modId": "631D61C22E30D845",
-        "name": "effects",
-        "required": true
-      },
-      {
-        "modId": "631C0CCC3F4506CB",
-        "name": "vehicles",
-        "required": true
-      },
-      {
-        "modId": "653942F38B7C23DE",
-        "name": "map",
-        "required": true
-      },
-      {
-        "modId": "631CA3F82A68518D",
-        "name": "MPFixes",
-        "required": true
-      },
-      {
-        "modId": "645D30E43E09B9D8",
-        "name": "Loadouts",
-        "required": true
-      },
-
-      
-      
-      
+      },                
       {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true
-      },           
+      },       
+        
       {
         "modId": "67093B735FC57652",
         "name": "cgqc_backpack",
         "required": true
-      }  
-    
+      }
     ],
     "modsRequiredByDefault": true
   },

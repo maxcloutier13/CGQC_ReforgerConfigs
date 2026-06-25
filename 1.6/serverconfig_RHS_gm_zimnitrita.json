@@ -2,7 +2,7 @@
   "bindAddress": "192.168.20.97",
   "bindPort": 2001,
   "publicPort": 2001,
-"a2s": {
+  "a2s": {
     "address": "0.0.0.0",
     "port": 17777
   },
@@ -13,11 +13,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC CoopGamingQuébec - Enrôlez-vous! cgqc.ca",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - GM",
     "password": "879",
-    "passwordAdmin": "FRK9D",
+    "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+    "scenarioId": "{9D2D546F1E889561}Missions/GM_Zimnitrita.conf",
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -29,20 +29,15 @@
       "disableThirdPerson": true,
       "fastValidation": true,
       "battlEye": false,
-      "VONDisableUI": false,
-      "VONDisableDirectSpeechUI": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
       "VONCanTransmitCrossFaction": true,
       "missionHeader": {}
     },
     "mods": [
       {
-        "modId": "61ECB5EFAA346151",
-        "name": "TAO",
-        "required": true
-      },
-      {
         "modId": "66BB20CA43330BC2",
-        "name": "CGQC_Core",
+        "name": "cgqc_core",
         "required": true
       },
       {
@@ -51,63 +46,83 @@
         "required": true
       },
       {
-        "modId": "68B538DB540596CA",
-        "name": "cgqc_gm",
+        "modId": "670AF64751851FC2",
+        "name": "cgqc_ace_dev",
+        "required": true
+      },
+      {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
+      },
+      {
+        "modId": "66EB0C9543D1D4AF",
+        "name": "cgqc_vics",
+        "required": true
+      },    
+      {
+        "modId": "66EB4A3B15619C69",
+        "name": "cgqc_rotary",
+        "required": true
+      },
+      {
+        "modId": "66F95CFA501A2A32",
+        "name": "cgqc_rotary_opfor",
         "required": true
       },
       
       {
-        "modId": "66BEFBF71FC73A14",
-        "name": "CGQCAddons",
+        "modId": "66E3256D49613609",
+        "name": "cgqc_music",
         "required": true
-      },
-
-
-
+      },       
+      {
+        "modId": "670F38925E7F3717",
+        "name": "cgqc_ai_casual",
+        "required": true
+      },    
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
+        "required": true
+      },  
+      {
+        "modId": "597697D81A1EA202",
+        "name": "Zimnitrita",
+        "required": true
+      },  
       {
         "modId": "68B306565FED48D9",
         "name": "cgqc_audio",
         "required": true
-      },
+      },      
       {
-        "modId": "697907B3848A6194",
-        "name": "cgqc_music_coldwar",
+        "modId": "68B12D355F654C54",
+        "name": "cgqc_grs",
         "required": true
-      },
+      },         
       {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
+        "modId": "688D0CCF80BFE6A4",
+        "name": "cgqc_radio_rhs",
         "required": true
-      },
+      },     
       {
-        "modId": "68B53542530EA6C6",
-        "name": "cgqc_topography",
+        "modId": "68AF51A54FA778AC",
+        "name": "cgqc_faction_rhs_ace",
         "required": true
-      },
-    
-      
-       {
-        "modId": "670F38925E7F3717",
-        "name": "cgqc_ai_casual",
+      },     
+      {
+        "modId": "671B4B88A1397B9D",
+        "name": "bonzUnitLoadout",
         "required": true
-      }, 
+      },     
+      {
+        "modId": "61DEF91D55CA4930",
+        "name": "DirecVoiceTweak",
+        "required": true
+      } 
 
-      {
-        "modId": "68D5640B430A9ED2",
-        "name": "cgqc_equipment_core",
-        "required": true
-      },
-       {
-        "modId": "68C24D295E407853",
-        "name": "cgqc_medical",
-        "required": true
-      },
-      {
-        "modId": "670AF64751851FC2",
-        "name": "cgqc_ace_dev",
-        "required": true
-      }
-    
+      
     ],
     "modsRequiredByDefault": true
   },

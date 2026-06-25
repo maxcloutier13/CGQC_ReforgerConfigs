@@ -1,0 +1,193 @@
+{
+  "bindAddress": "192.168.20.97",
+  "bindPort": 2001,
+  "publicPort": 2001,
+  "a2s": {
+    "address": "0.0.0.0",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "192.168.20.97",
+    "port": 2002,
+    "password": "frk9d",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "CoopGamingQuébec - cgqc.ca -FreedomFighter - PvE Ouvert à tous",
+    "password": "",
+    "passwordAdmin": "frk9d",
+    "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
+    "scenarioId": "{F06016A62EBC2AA3}Missions/FreedomFighters/Glenwood_FF.conf",
+    "maxPlayers": 64,
+    "visible": true,
+    "crossPlatform": true,
+    "supportedPlatforms": ["PLATFORM_PC", "PLATFORM_XBL", "PLATFORM_PSN"],
+    "gameProperties": {
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": false,
+      "VONDisableDirectSpeechUI": false,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {}
+    },
+"mods": [
+      {
+        "modId": "66BB20CA43330BC2",
+        "name": "cgqc_core",
+        "required": true
+      }, 
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
+        "required": true
+      }, 
+      {
+        "modId": "68B306565FED48D9",
+        "name": "cgqc_audio",
+        "required": true
+      }, 
+      {
+        "modId": "66E3256D49613609",
+        "name": "cgqc_music",
+        "required": true
+      },    
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      }, 
+      {
+        "modId": "688D0CCF80BFE6A4",
+        "name": "cgqc_radio_rhs",
+        "required": true
+      },
+      {
+        "modId": "68B53542530EA6C6",
+        "name": "cgqc_topography",
+        "required": true
+      }, 
+      
+
+
+      
+      {
+        "modId": "670AF64751851FC2",
+        "name": "cgqc_ace_dev",
+        "required": true
+      },        
+       {
+        "modId": "66BEFBF71FC73A14",
+        "name": "cgqc_addons_1.6",
+        "required": true
+      },         
+      {
+        "modId": "670F38925E7F3717",
+        "name": "cgqc_ai_casual",
+        "required": true
+      },       
+      
+
+
+
+
+      {
+        "modId": "66EB0C9543D1D4AF",
+        "name": "cgqc_vics",
+        "required": true
+      },          
+      {
+        "modId": "68D5640B430A9ED2",
+        "name": "cgqc_equipment_core",
+        "required": true
+      },   
+ 
+
+     {
+        "modId": "6708F62D1760D5E8",
+        "name": "FFGlenwood",
+        "required": true
+      },
+      {
+        "modId": "66EB0E96506E1FDF",
+        "name": "cgqc_ff",
+        "required": true
+      },     
+      {
+        "modId": "64ED6553B8AF6B62",
+        "name": "AtmosWeatherMod",
+        "required": true
+      },
+      {
+        "modId": "6528C95796EBEDE0",
+        "name": "EnvironmentalAmbienceMod",
+        "required": true
+      }, 
+      {
+        "modId": "68770A2A6E88C378",
+        "name": "FFBLackMarket",
+        "required": true
+      },         
+      {
+        "modId": "64594B4F6C4E9718",
+        "name": "ImprovedRagdolls",
+        "required": true
+      },      
+      {
+        "modId": "62113AA293414DBA",
+        "name": "KeepRagdollPose",
+        "required": true
+      },      
+      {
+        "modId": "62B0555FF0A21CA6",
+        "name": "CoalitionStatics",
+        "required": true
+      },      
+      {
+        "modId": "5EE4F56A883654EB",
+        "name": "StayAlive",
+        "required": true
+      },
+      {
+        "modId": "68B356406EA40620",
+        "name": "FFLootSystem",
+        "required": true
+      }, 
+      {
+        "modId": "689B603AD0526DE8",
+        "name": "StealthGM",
+        "required": true
+      },                         
+      {
+        "modId": "68EEEA4E5E58FB02",
+        "name": "cgqc_respawnSound",
+        "required": true
+      },     
+
+
+    
+        
+      {
+        "modId": "5C73156675E11A0F",
+        "name": "GMLoadouts",
+        "required": true
+      }
+    ],  
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 120,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}

@@ -2,22 +2,23 @@
   "bindAddress": "192.168.20.97",
   "bindPort": 2001,
   "publicPort": 2001,
-"a2s": {
+  "a2s": {
     "address": "0.0.0.0",
     "port": 17777
   },
   "rcon": {
     "address": "192.168.20.97",
     "port": 2002,
-    "password": "!CGQC147",
+    "password": "frk9d",
     "permission": "admin"
   },
   "game": {
     "name": "CGQC CoopGamingQuébec - Enrôlez-vous! cgqc.ca",
     "password": "879",
-    "passwordAdmin": "FRK9D",
+    "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-    "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+   
+    "scenarioId": "{D8253A9909511193}Missions/Escapists_Eden.conf",
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -29,91 +30,60 @@
       "disableThirdPerson": true,
       "fastValidation": true,
       "battlEye": false,
-      "VONDisableUI": false,
-      "VONDisableDirectSpeechUI": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
       "VONCanTransmitCrossFaction": true,
-      "missionHeader": {}
+      "missionHeader": {
+      }
     },
+
     "mods": [
-      {
-        "modId": "61ECB5EFAA346151",
-        "name": "TAO",
-        "required": true
-      },
+      
+    
       {
         "modId": "66BB20CA43330BC2",
-        "name": "CGQC_Core",
+        "name": "cgqc_core",
         "required": true
       },
       {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
-        "required": true
-      },
-      {
-        "modId": "68B538DB540596CA",
-        "name": "cgqc_gm",
-        "required": true
-      },
       
+        "modId": "697B17B8890D006E",
+        "name": "cgqc_animation",
+        "required": true
+      },  
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      }, 
+
       {
         "modId": "66BEFBF71FC73A14",
         "name": "CGQCAddons",
         "required": true
       },
-
-
-
-      {
-        "modId": "68B306565FED48D9",
-        "name": "cgqc_audio",
-        "required": true
-      },
-      {
-        "modId": "697907B3848A6194",
-        "name": "cgqc_music_coldwar",
-        "required": true
-      },
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },
-      {
-        "modId": "68B53542530EA6C6",
-        "name": "cgqc_topography",
-        "required": true
-      },
-    
       
-       {
-        "modId": "670F38925E7F3717",
-        "name": "cgqc_ai_casual",
-        "required": true
-      }, 
-
-      {
-        "modId": "68D5640B430A9ED2",
-        "name": "cgqc_equipment_core",
-        "required": true
-      },
-       {
-        "modId": "68C24D295E407853",
-        "name": "cgqc_medical",
-        "required": true
-      },
       {
         "modId": "670AF64751851FC2",
         "name": "cgqc_ace_dev",
         "required": true
+      },
+ 
+        {
+        "modId": "69794468DD5E4804",
+        "name": "EscapistsFix",
+        "required": true
       }
-    
+      
+      
+      
     ],
+      
     "modsRequiredByDefault": true
   },
   "operating": {
     "lobbyPlayerSynchronise": true,
-    "playerSaveTime": 120,
+    "playerSaveTime": 600,
     "aiLimit": -1,
     "slotReservationTimeout": 90,
     "disableServerShutdown": false,

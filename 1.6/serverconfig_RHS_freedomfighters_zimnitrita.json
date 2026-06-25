@@ -13,11 +13,11 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla+",
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer - FreedomFighter",
     "password": "879",
     "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-    "scenarioId": "{E2EC49F13FBAC56F}Missions/FreedomFighters/Arland.conf",
+    "scenarioId": "{0A7D4B53357DA982}Missions/FreedomFighters/Zimnitrita.conf",
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -29,8 +29,8 @@
       "disableThirdPerson": true,
       "fastValidation": true,
       "battlEye": false,
-      "VONDisableUI": false,
-      "VONDisableDirectSpeechUI": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
       "VONCanTransmitCrossFaction": true,
       "missionHeader": {}
     },
@@ -41,50 +41,43 @@
         "required": true
       },
       {
-        "modId": "66CD63D4161FA7CA",
-        "name": "cgqc_ace_nomedical",
-        "required": true
-      },
-      {
         "modId": "66BB0CD55FFB27AA",
         "name": "cgqc_admin",
         "required": true
       },
+      {
+        "modId": "670AF813518ECDFE",
+        "name": "cgqc_ace_dev_nomedical",
+        "required": true
+      },
+      
       {
         "modId": "66BEFBF71FC73A14",
         "name": "cgqc_addons_1.6",
         "required": true
       },
       {
-        "modId": "66D105ED77AB8D92",
-        "name": "cgqc_ai",
-        "required": true
-      },
-      {
         "modId": "66EB0C9543D1D4AF",
         "name": "cgqc_vics",
         "required": true
-      },
+      },     
       {
         "modId": "66EB0E96506E1FDF",
         "name": "cgqc_ff",
         "required": true
-      },      
+      },
+
       {
-        "modId": "66B523AD189F3233",
-        "name": "BanditGear",
+        "modId": "66273EDDE929C484",
+        "name": "FF_Zimnitrita",
         "required": true
-      },  
+      },
       {
         "modId": "65F6F424AA624241",
         "name": "Balaclava",
         "required": true
       }, 
-      {
-        "modId": "66DB2D99384AC908",
-        "name": "ConcealedCarry",
-        "required": true
-      },
+      
       {
         "modId": "64ED6553B8AF6B62",
         "name": "AtmosWeatherMod",
@@ -101,10 +94,71 @@
         "required": true
       },       
       {
+        "modId": "65FD2D030AEB16A6",
+        "name": "FF_RHS",
+        "required": true
+      },      
+      {
+        "modId": "670F38925E7F3717",
+        "name": "cgqc_ai_casual",
+        "required": true
+      },    
+      {
+        "modId": "66BB276B523D505B",
+        "name": "cgqc_rhs",
+        "required": true
+      },   
+      {
+        "modId": "64DE57C0A1601D14",
+        "name": "lunacyAudio",
+        "required": true
+      },    
+      {
+        "modId": "66EE3582A17A8FB7",
+        "name": "SHExtremeDynamicRange",
+        "required": true
+      },   
+      {
+        "modId": "650F545AB9B7E3CD",
+        "name": "LunacyOverdrive",
+        "required": true
+      },   
+           
+      {
+        "modId": "67093B735FC57652",
+        "name": "cgqc_backpack",
+        "required": true
+      },      
+      {
+        "modId": "672D432E181E6807",
+        "name": "WCS_Holdbreath",
+        "required": true
+      },
+      {
+        "modId": "65117E01FC88FE08",
+        "name": "RTG Armbands",
+        "required": true
+      },
+      {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true
-      }           
+      }, 
+      {
+        "modId": "688D0CCF80BFE6A4",
+        "name": "cgqc_radio_rhs",
+        "required": true
+      }, 
+      {
+        "modId": "673D50848A314906",
+        "name": "FF_GroupsUnlock",
+        "required": true
+      },
+      {
+        "modId": "68AEEEC17EDC32E4",
+        "name": "cgqc_faction_rhs",
+        "required": true
+      }     
     ],
     "modsRequiredByDefault": true
   },

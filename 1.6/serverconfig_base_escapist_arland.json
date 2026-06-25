@@ -18,6 +18,8 @@
     "passwordAdmin": "FRK9D",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
     "scenarioId": "{DAA03C6E6099D50F}Missions/24_CombatOps.conf",
+
+
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -36,11 +38,6 @@
     },
     "mods": [
       {
-        "modId": "61ECB5EFAA346151",
-        "name": "TAO",
-        "required": true
-      },
-      {
         "modId": "66BB20CA43330BC2",
         "name": "CGQC_Core",
         "required": true
@@ -53,12 +50,6 @@
       {
         "modId": "68B538DB540596CA",
         "name": "cgqc_gm",
-        "required": true
-      },
-      
-      {
-        "modId": "66BEFBF71FC73A14",
-        "name": "CGQCAddons",
         "required": true
       },
 
@@ -103,11 +94,23 @@
         "required": true
       },
       {
+        "modId": "68C61DEE53D353EF",
+        "name": "cgqc_setup_coldwar",
+        "required": true
+      },
+
+      
+      {
         "modId": "670AF64751851FC2",
         "name": "cgqc_ace_dev",
         "required": true
+      },
+      {
+        "modId": "5F16D7E4A1CBE075",
+        "name": "escapists",
+        "required": true
       }
-    
+      
     ],
     "modsRequiredByDefault": true
   },

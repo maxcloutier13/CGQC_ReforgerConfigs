@@ -2,22 +2,23 @@
   "bindAddress": "192.168.20.97",
   "bindPort": 2001,
   "publicPort": 2001,
-"a2s": {
+  "a2s": {
     "address": "0.0.0.0",
     "port": 17777
   },
   "rcon": {
     "address": "192.168.20.97",
     "port": 2002,
-    "password": "!CGQC147",
+    "password": "frk9d",
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainSrv - Vanilla",
+    "name": "CGQC CoopGamingQuébec - Enrôlez-vous! cgqc.ca",
     "password": "879",
-    "passwordAdmin": "FRK9D",
+    "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-    "scenarioId": "{B76E6CFDF056031F}Missions/Escapists_Arland.conf",
+   
+    "scenarioId": "{E5D9A1F4C7B342F2}Missions/Escapists_WW2_Eden.conf",
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -29,53 +30,38 @@
       "disableThirdPerson": true,
       "fastValidation": true,
       "battlEye": false,
-      "VONDisableUI": false,
-      "VONDisableDirectSpeechUI": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
       "VONCanTransmitCrossFaction": true,
-      "missionHeader": {}
+      "missionHeader": {
+      }
     },
+
     "mods": [
+      
+    
       {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
       },
-      {
-        "modId": "66CD63304921080F",
-        "name": "cgqc_ace",
+
+ 
+        {
+        "modId": "E5D9A1F4C7B342FB",
+        "name": "Escapists43FUBAR",
         "required": true
-      },
-      {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
-        "required": true
-      },
-      {
-        "modId": "66BB0CD55FFB27AA",
-        "name": "cgqc_admin",
-        "required": true
-      },
-      {
-        "modId": "5F16D7E4A1CBE075",
-        "name": "ESCAPISTS",
-        "required": true
-      },
-      {
-        "modId": "66AAB0873717CEF0",
-        "name": "SCRTCORE",
-        "required": true
-      },
-      {
-        "modId": "66AD0B6D6E7A6A97",
-        "name": "SRCTSHARED",
-        "required": true
-      } 
+      }
+      
+      
+      
     ],
+      
     "modsRequiredByDefault": true
   },
   "operating": {
     "lobbyPlayerSynchronise": true,
-    "playerSaveTime": 120,
+    "playerSaveTime": 600,
     "aiLimit": -1,
     "slotReservationTimeout": 90,
     "disableServerShutdown": false,

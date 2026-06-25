@@ -1,0 +1,221 @@
+{
+  "bindAddress": "192.168.20.97",
+  "bindPort": 2001,
+  "publicPort": 2001,
+"a2s": {
+    "address": "0.0.0.0",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "192.168.20.97",
+    "port": 2002,
+    "password": "!CGQC147",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "CGQC - CoopGamingQuébec - Enrôlez-vous! cgqc.ca - MainServer",
+    "password": "879",
+    "passwordAdmin": "FRK9D",
+    "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
+    "scenarioId": "{5E87B8840A0E2A44}Missions/GM_Bergamo.conf",
+    "maxPlayers": 64,
+    "visible": true,
+    "crossPlatform": true,
+    "supportedPlatforms": ["PLATFORM_PC", "PLATFORM_XBL", "PLATFORM_PSN"],
+    "gameProperties": {
+      "serverMaxViewDistance": 3000,
+      "serverMinGrassDistance": 150,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": true,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": false,
+      "VONDisableDirectSpeechUI": false,
+      "VONCanTransmitCrossFaction": true,
+      "missionHeader": {}
+    },
+    "mods": [
+
+      
+      	{
+		"modId": "6846E65BBAC20426",
+		"name": "ROR SF Pouches",
+        "required": true
+	},
+	{
+		"modId": "631EE12D448D7FCC",
+		"name": "DarcCore",
+        "required": true
+	},
+	{
+		"modId": "66163589B9704AD9",
+		"name": "RAVEN ANTI-CHEAT",
+        "required": true
+	},
+	{
+		"modId": "695CF766C1D378B4",
+		"name": "BFS - Custom Player Names",
+        "required": true
+	},
+	{
+		"modId": "653CFB54032F4DDE",
+		"name": "Project Mythic - Landfall",
+        "required": true
+	},
+	{
+		"modId": "690363C68B3CAE48",
+		"name": "ROR Crimson Footholds",
+        "required": true
+	},
+	{
+		"modId": "689AFB785D2932CA",
+		"name": "ROR Armored Core",
+        "required": true
+	},
+	{
+		"modId": "66DB025C3FE5A1BE",
+		"name": "Project Mythic - Mjolnir",
+        "required": true
+	},
+	{
+		"modId": "66B117F93CCCC6E1",
+		"name": "ROR Crimson Claw",
+        "required": true
+	},
+	{
+		"modId": "689EDED542F881AF",
+		"name": "DarcChopper",
+        "required": true
+	},
+	{
+		"modId": "69497ECB26324D53",
+		"name": "ROR  Armada",
+        "required": true
+	},
+	{
+		"modId": "68A006C04E6A0892",
+		"name": "ROR Utility Vics",
+        "required": true
+	},
+	{
+		"modId": "68E01EEFD1D4D606",
+		"name": "Misriah Mission Framework",
+        "required": true
+	},
+	{
+		"modId": "66FD3A42890DA123",
+		"name": "ROR Elite Mercenaries",
+        "required": true
+	},
+	{
+		"modId": "66B271549E700BB7",
+		"name": "ROR Crimson Fleet",
+        "required": true
+	},
+	{
+		"modId": "62E904C5C053111E",
+		"name": "Salamis HUD Framework",
+        "required": true
+	},
+	{
+		"modId": "621E93B201310954",
+		"name": "AutoTurretCore",
+        "required": true
+	},
+	{
+		"modId": "65522B902C62A02C",
+		"name": "Project Mythic - Arsenal",
+        "required": true
+	},
+	{
+		"modId": "61330C2DC7724DEA",
+		"name": "Assets for Tools byHeine",
+        "required": true
+	},
+	{
+		"modId": "64CC46CC07811C44",
+		"name": "Project Mythic - Core",
+        "required": true
+	},
+	{
+		"modId": "68FC01C5E907A362",
+		"name": "Misriah Armory Framework",
+        "required": true
+	},
+	{
+		"modId": "66BD17B642243AD4",
+		"name": "ROR Placeables",
+        "required": true
+	},
+	{
+		"modId": "66C2001B8E906D4E",
+		"name": "ROR Air2",
+        "required": true	},
+	{
+		"modId": "615751FB9ACF2781",
+		"name": "Bergamo Map byHeine - WIP",
+        "required": true	},
+	{
+		"modId": "659CD774394843C9",
+		"name": "Project Mythic - Believe",
+        "required": true	},
+	{
+		"modId": "667542CBE208835A",
+		"name": "ROR Crimson Tide",
+        "required": true	},
+	{
+		"modId": "6888F685A85A2B35",
+		"name": "Disable GM Voting",
+        "required": true	},
+	{
+		"modId": "6497564B9264ED65",
+		"name": "ROR Screaming Skies",
+        "required": true	},
+	{
+		"modId": "6548C9E905D9B9D0",
+		"name": "Project Mythic - Legends",
+        "required": true	},
+	{
+		"modId": "66D72DD58AE3E7EE",
+		"name": "Project Mythic - Red Core",
+        "required": true	},
+	{
+		"modId": "6558D9A2311FFBDC",
+		"name": "Project Mythic - Sabre",
+        "required": true	},
+	{
+		"modId": "689AFBC25E3B71F1",
+		"name": "ROR Standard Vics",
+        "required": true	},
+	{
+		"modId": "68E177A285B1E04B",
+		"name": "ROR DarcSupport",
+        "required": true	},
+	{
+		"modId": "66433E57B33E2218",
+		"name": "Project Mythic - Factions",
+        "required": true	},
+	{
+		"modId": "68A3279B3916361E",
+		"name": "ROR Anti Air",
+        "required": true	},
+	{
+		"modId": "6952E500ADFF17F0",
+		"name": "Vulture",
+        "required": true	}
+    ],
+    "modsRequiredByDefault": true
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 120,
+    "aiLimit": -1,
+    "slotReservationTimeout": 90,
+    "disableServerShutdown": false,
+    "disableCrashReporter": false,
+    "disableAI": false,
+    "joinQueue": {
+      "maxSize": 0
+    }
+  }
+}
