@@ -17,8 +17,9 @@
     "password": "879",
     "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
-
-     "scenarioId": "{69A90C8999AFD84D}Missions/Fort_Stewart_Vanilla.conf",
+   
+    "scenarioId": "{04E4EE1532324317}Missions/GM_CampNeptune.conf",
+ 
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -37,18 +38,18 @@
       }
     },
 
-
-     "mods": [
+    "mods": [
       {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
       },
-      {
-        "modId": "61ECB5EFAA346151",
-        "name": "TAO",
+       {
+      
+        "modId": "697B17B8890D006E",
+        "name": "cgqc_animation",
         "required": true
-      },
+      },  
       {
         "modId": "690E1690B26A1D4E",
         "name": "cgqc_berets",
@@ -64,13 +65,23 @@
         "modId": "66BEFBF71FC73A14",
         "name": "cgqc_addons_1.6",
         "required": true
-      },      
+      },     
+      {
+        "modId": "68B53542530EA6C6",
+        "name": "cgqc_topography",
+        "required": true
+      },    
 
       {
         "modId": "66C758524364DA1B",
         "name": "cgqc_radio",
         "required": true
       },  
+      {
+        "modId": "68B306565FED48D9",
+        "name": "cgqc_audio",
+        "required": true
+      },
       {
         "modId": "670AF64751851FC2",
         "name": "cgqc_ace_dev",
@@ -102,11 +113,6 @@
 
    
       {
-        "modId": "68C438E1F3E379C1",
-        "name": "cgqc_force_faction",
-        "required": true
-      },
-       {
         "modId": "68FC062054BB6D8B",
         "name": "cgqc_training",
         "required": true
@@ -120,19 +126,14 @@
 
       
   
- 
 
-       {
-        "modId": "666F38C032B6628F",
-        "name": "FortStewart",
+      {
+        "modId": "69A722ED837C0A8B",
+        "name": "CGQC_Neptune",
         "required": true
       }
-
-
-
-
-
     ],
+      
     "modsRequiredByDefault": true
   },
   "operating": {

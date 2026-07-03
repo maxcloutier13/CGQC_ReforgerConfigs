@@ -13,12 +13,13 @@
     "permission": "admin"
   },
   "game": {
-    "name": "CGQC CoopGamingQuébec - Enrôlez-vous! cgqc.ca",
+   "name": "CoopGamingQuébec QCFR - Enrôlez-vous! cgqc.ca - Training 1989",
     "password": "879",
     "passwordAdmin": "CGQC741",
     "admins": ["d7e9113c-f075-41c5-a72a-9ee5187dc723", "c3fcb72f-2f87-4937-8847-1fb62b39a40c"],
    
-    "scenarioId": "{A6A77FC53F7868A9}missions/WARFARE_VANILLA_CAIN_Persis.conf",
+    "scenarioId": "{591B617951134B48}Missions/CGQC_CampLacorne.conf",
+ 
     "maxPlayers": 64,
     "visible": true,
     "crossPlatform": true,
@@ -38,75 +39,108 @@
     },
 
     "mods": [
-      
-      {
-        "modId": "69869823F7EC7E83",
-        "name": "Warfare_KolguPersistance",
-        "required": true
-      },
       {
         "modId": "66BB20CA43330BC2",
         "name": "cgqc_core",
         "required": true
       },
-    
       {
+        "modId": "68B538DB540596CA",
+        "name": "cgqc_gm",
+        "required": true
+      },
+
+      
+       {
       
         "modId": "697B17B8890D006E",
         "name": "cgqc_animation",
         "required": true
       },  
-     
-      
-
-  
       {
-        "modId": "66C758524364DA1B",
-        "name": "cgqc_radio",
+        "modId": "690E1690B26A1D4E",
+        "name": "cgqc_berets",
+        "required": true
+      },
+      {
+        "modId": "66BB0CD55FFB27AA",
+        "name": "cgqc_admin",
         "required": true
       }, 
-
-      
-
-           
-       {
+   
+      {
         "modId": "66BEFBF71FC73A14",
         "name": "cgqc_addons_1.6",
         "required": true
-      },         
+      },   
       {
         "modId": "68B53542530EA6C6",
         "name": "cgqc_topography",
         "required": true
-      },   
+      },    
 
- 
- 
-  
       
+
+      {
+        "modId": "66C758524364DA1B",
+        "name": "cgqc_radio",
+        "required": true
+      },  
+      {
+        "modId": "68B306565FED48D9",
+        "name": "cgqc_audio",
+        "required": true
+      },
       {
         "modId": "670AF64751851FC2",
         "name": "cgqc_ace_dev",
         "required": true
       },
-      {
+        {
         "modId": "68C24D295E407853",
         "name": "cgqc_medical",
         "required": true
-      },
+      }, 
+
+         
+
       {
-        "modId": "697D645290BC3D70",
-        "name": "lightTweak",
+        "modId": "68DE15A04B518582",
+        "name": "cgqc_ai_milsim",
+        "required": true
+      }, 
+      {
+        "modId": "68D5640B430A9ED2",
+        "name": "cgqc_equipment_core",
+        "required": true
+      }, 
+      {
+        "modId": "68C61DEE53D353EF",
+        "name": "cgqc_setup_coldwar",
         "required": true
       },
-      
+
+   
       {
-        "modId": "696F145715D0FB78",
-        "name": "CinematicWeather",
+        "modId": "68FC062054BB6D8B",
+        "name": "cgqc_training",
+        "required": true
+      },
+      {
+        "modId": "691751795451761F",
+        "name": "cgqc_rangeTools",
+        "required": true
+      },
+
+
+      
+  
+
+      {
+        "modId": "696714DC9AB9E89E",
+        "name": "CGQC_Lacorne",
         "required": true
       }
-      
-      
     ],
       
     "modsRequiredByDefault": true
